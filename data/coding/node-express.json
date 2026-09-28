@@ -1,0 +1,372 @@
+[
+  {
+    "id": "code-nod-001",
+    "topic": "express",
+    "subtopic": "get-route",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Get Route",
+    "prompt": "Write a GET /health Express route returning JSON.",
+    "examples": [
+      "GET /health -> 200 {ok:true}"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Use Express app or router; include response."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Use Express app or router; include response."
+    ],
+    "conceptsTested": [
+      "get-route"
+    ],
+    "tags": [
+      "get-route"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-nod-002",
+    "topic": "express",
+    "subtopic": "post-route",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Post Route",
+    "prompt": "Write POST /tasks that validates a title and stores in memory.",
+    "examples": [
+      "Valid -> 201 task; invalid -> 400"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Use express.json; no database."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Use express.json; no database."
+    ],
+    "conceptsTested": [
+      "post-route"
+    ],
+    "tags": [
+      "post-route"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-nod-003",
+    "topic": "express",
+    "subtopic": "crud",
+    "difficulty": "junior_plus",
+    "type": "coding",
+    "title": "Crud",
+    "prompt": "Implement in-memory GET/POST/DELETE /tasks routes.",
+    "examples": [
+      "Create, list, delete by id"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Appropriate status codes; missing item -> 404."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Appropriate status codes; missing item -> 404."
+    ],
+    "conceptsTested": [
+      "crud"
+    ],
+    "tags": [
+      "crud"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-nod-004",
+    "topic": "express",
+    "subtopic": "logger",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Logger",
+    "prompt": "Implement middleware logging method and path then calling next.",
+    "examples": [
+      "GET /x -> log GET /x"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Must not hang request."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Must not hang request."
+    ],
+    "conceptsTested": [
+      "logger"
+    ],
+    "tags": [
+      "logger"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-nod-005",
+    "topic": "express",
+    "subtopic": "validation",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Validation",
+    "prompt": "Create reusable title validation middleware.",
+    "examples": [
+      "Blank title -> 400"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Trim string; call next on valid input."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Trim string; call next on valid input."
+    ],
+    "conceptsTested": [
+      "validation"
+    ],
+    "tags": [
+      "validation"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-nod-006",
+    "topic": "express",
+    "subtopic": "error-handler",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Error Handler",
+    "prompt": "Create centralized Express error handler returning safe JSON.",
+    "examples": [
+      "Thrown error -> 500 response"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Four args; avoid leaking stack/details."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Four args; avoid leaking stack/details."
+    ],
+    "conceptsTested": [
+      "error-handler"
+    ],
+    "tags": [
+      "error-handler"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-nod-007",
+    "topic": "express",
+    "subtopic": "params",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Params",
+    "prompt": "Write GET /users/:id against in-memory users.",
+    "examples": [
+      "Missing id -> 404"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Use req.params.id; handle string/number comparison."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Use req.params.id; handle string/number comparison."
+    ],
+    "conceptsTested": [
+      "params"
+    ],
+    "tags": [
+      "params"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-nod-008",
+    "topic": "express",
+    "subtopic": "async-handler",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Async Handler",
+    "prompt": "Write async route that handles rejected service call.",
+    "examples": [
+      "Service rejects -> error middleware"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Support Express 5 or explicitly next(err)."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Support Express 5 or explicitly next(err)."
+    ],
+    "conceptsTested": [
+      "async-handler"
+    ],
+    "tags": [
+      "async-handler"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-nod-009",
+    "topic": "express",
+    "subtopic": "refactor",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Refactor",
+    "prompt": "Refactor duplicated GET routes to shared lookup helper.",
+    "examples": [
+      "Two routes -> one lookup pattern"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Keep correct 404 behavior."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Keep correct 404 behavior."
+    ],
+    "conceptsTested": [
+      "refactor"
+    ],
+    "tags": [
+      "refactor"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-nod-010",
+    "topic": "express",
+    "subtopic": "cors",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Cors",
+    "prompt": "Configure CORS for a specified frontend origin.",
+    "examples": [
+      "Allowed origin -> CORS header"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Restrict configured origin; explain preflight briefly."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Restrict configured origin; explain preflight briefly."
+    ],
+    "conceptsTested": [
+      "cors"
+    ],
+    "tags": [
+      "cors"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  }
+]

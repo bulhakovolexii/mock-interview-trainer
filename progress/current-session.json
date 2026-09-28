@@ -1,0 +1,18 @@
+{
+  "id": "2026-09-28T14:30:26.815Z",
+  "startedAt": "2026-09-28T14:30:26.815Z",
+  "mode": "normal",
+  "target": null,
+  "answered": 0,
+  "results": {
+    "correct": 0,
+    "mostly_correct": 0,
+    "partially_correct": 0,
+    "incorrect": 0,
+    "skipped": 0
+  },
+  "codingAttempted": 0,
+  "codingSolved": 0,
+  "pending": null,
+  "recentConcepts": []
+}

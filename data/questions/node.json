@@ -1,0 +1,639 @@
+[
+  {
+    "id": "nod-fundamentals-001",
+    "topic": "node",
+    "subtopic": "fundamentals",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is Node.js?",
+    "expectedPoints": [
+      "JavaScript runtime outside browser built on V8, commonly used for servers and tooling."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "fundamentals"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-fundamentals-002",
+    "topic": "node",
+    "subtopic": "fundamentals",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is V8's role in Node.js?",
+    "expectedPoints": [
+      "It executes JavaScript; Node adds runtime APIs."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "fundamentals"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-architecture-003",
+    "topic": "node",
+    "subtopic": "architecture",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does event-driven programming mean in a Node server?",
+    "expectedPoints": [
+      "Callbacks/listeners react to events such as requests or I/O completion."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "architecture"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-architecture-004",
+    "topic": "node",
+    "subtopic": "architecture",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does non-blocking I/O mean in practice?",
+    "expectedPoints": [
+      "I/O is started without waiting synchronously on main JS thread; completion handled later."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "architecture"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-architecture-005",
+    "topic": "node",
+    "subtopic": "architecture",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why can CPU-heavy synchronous work hurt a Node server?",
+    "expectedPoints": [
+      "It blocks event loop from serving other requests."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "architecture"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-architecture-006",
+    "topic": "node",
+    "subtopic": "architecture",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What sort of work should generally use asynchronous Node APIs?",
+    "expectedPoints": [
+      "I/O such as file and network operations so the main thread can continue."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "architecture"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-event-loop-007",
+    "topic": "node",
+    "subtopic": "event-loop",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What is the Node event loop responsible for at a junior level?",
+    "expectedPoints": [
+      "Scheduling callbacks for timers, I/O, and other phases while JS runs on main thread."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "event-loop"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-event-loop-008",
+    "topic": "node",
+    "subtopic": "event-loop",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Do setTimeout callbacks always run at their exact delay?",
+    "expectedPoints": [
+      "No, delay is minimum-ish and depends on event loop availability."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "event-loop"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-runtime-009",
+    "topic": "node",
+    "subtopic": "runtime",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Name two APIs in Node that are absent or different in browser JS.",
+    "expectedPoints": [
+      "fs, process, path, Buffer; DOM APIs are browser-specific."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "runtime"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-modules-010",
+    "topic": "node",
+    "subtopic": "modules",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do you export/import with CommonJS?",
+    "expectedPoints": [
+      "module.exports / require."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "modules"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-modules-011",
+    "topic": "node",
+    "subtopic": "modules",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do you export/import with ES modules in Node?",
+    "expectedPoints": [
+      "export / import with ESM configuration or .mjs."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "modules"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-npm-012",
+    "topic": "node",
+    "subtopic": "npm",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is package.json used for?",
+    "expectedPoints": [
+      "Package metadata, scripts, dependencies and configuration."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "npm"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-npm-013",
+    "topic": "node",
+    "subtopic": "npm",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When does a package belong in devDependencies?",
+    "expectedPoints": [
+      "Needed for development/build/test but not runtime deployment."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "npm"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-npm-014",
+    "topic": "node",
+    "subtopic": "npm",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What does npm run test do?",
+    "expectedPoints": [
+      "Runs the test script defined in package.json."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "npm"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-environment-015",
+    "topic": "node",
+    "subtopic": "environment",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do you read an environment variable in Node?",
+    "expectedPoints": [
+      "process.env.NAME, typically configure outside source."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "environment"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-environment-016",
+    "topic": "node",
+    "subtopic": "environment",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why should secrets usually not be hard-coded into source?",
+    "expectedPoints": [
+      "Risk of exposure and difficult per-environment configuration."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "environment"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-process-017",
+    "topic": "node",
+    "subtopic": "process",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is process.argv?",
+    "expectedPoints": [
+      "Array of command-line arguments passed to process."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "process"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-fs-018",
+    "topic": "node",
+    "subtopic": "fs",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How would you read a text file without blocking the event loop?",
+    "expectedPoints": [
+      "Use fs/promises readFile(path, 'utf8') and await it."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "fs"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-fs-019",
+    "topic": "node",
+    "subtopic": "fs",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why is fs.readFileSync often inappropriate in a request handler?",
+    "expectedPoints": [
+      "Blocks main JS thread until file operation completes."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "fs"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-path-020",
+    "topic": "node",
+    "subtopic": "path",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why use path.join instead of manual slash concatenation?",
+    "expectedPoints": [
+      "Portable path separators and normalization."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "path"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-events-021",
+    "topic": "node",
+    "subtopic": "events",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What does EventEmitter.on and emit do?",
+    "expectedPoints": [
+      "Register a listener and trigger event with arguments."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "events"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-buffers-022",
+    "topic": "node",
+    "subtopic": "buffers",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is a Buffer used for?",
+    "expectedPoints": [
+      "Represent binary bytes, e.g. network/file data."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "buffers"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-streams-023",
+    "topic": "node",
+    "subtopic": "streams",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why stream a large file rather than read it all into memory?",
+    "expectedPoints": [
+      "Process chunks with lower memory use / backpressure support."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "streams"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-streams-024",
+    "topic": "node",
+    "subtopic": "streams",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is backpressure in a stream at a high level?",
+    "expectedPoints": [
+      "Consumer cannot keep up with producer; flow should slow or buffer within limits."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "streams"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-async-025",
+    "topic": "node",
+    "subtopic": "async",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do you handle an error from an awaited fs promise?",
+    "expectedPoints": [
+      "try/catch or Promise rejection handling."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "async"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-async-026",
+    "topic": "node",
+    "subtopic": "async",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What can happen if you forget to await a Promise in a request handler?",
+    "expectedPoints": [
+      "Response may use unresolved value or errors may escape intended handling."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "async"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-http-027",
+    "topic": "node",
+    "subtopic": "http",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What are request method and URL in an HTTP server used for?",
+    "expectedPoints": [
+      "Identify operation and resource/route."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "http"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-http-028",
+    "topic": "node",
+    "subtopic": "http",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What is a response status code?",
+    "expectedPoints": [
+      "Numeric result category such as 200 success, 404 missing, 500 server error."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "http"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-debugging-029",
+    "topic": "node",
+    "subtopic": "debugging",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "A server stops responding during a huge JSON calculation. What is a likely cause?",
+    "expectedPoints": [
+      "CPU work blocks event loop; split/offload work or use worker thread."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "debugging"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/node-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "nod-fs-030",
+    "topic": "node",
+    "subtopic": "fs",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "Which API reads a file asynchronously as a Promise?",
+    "expectedPoints": [
+      "fs/promises readFile"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "fs"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://angular.dev/guide/components",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "fs.readFileSync",
+      "path.join",
+      "fs/promises readFile",
+      "process.argv"
+    ],
+    "correctOption": "C"
+  }
+]

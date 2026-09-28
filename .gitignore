@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.log
+!progress/history.jsonl
+solutions/**
+!solutions/.gitkeep
+
+# Progress JSON/JSONL is intentionally tracked if this project is committed.

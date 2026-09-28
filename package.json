@@ -1,0 +1,17 @@
+{
+  "name": "mock-interview-trainer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Persistent Codex-led junior fullstack interview workspace",
+  "scripts": {
+    "validate": "node scripts/validate-bank.mjs",
+    "test": "node scripts/test-workflow.mjs",
+    "stats": "node scripts/stats.mjs",
+    "next": "node scripts/select-question.mjs",
+    "new-session": "node scripts/session.mjs new",
+    "session-summary": "node scripts/session.mjs summary",
+    "stop-interview": "node scripts/session.mjs stop"
+  },
+  "engines": { "node": ">=20" }
+}

@@ -1,0 +1,668 @@
+[
+  {
+    "id": "code-ang-001",
+    "topic": "angular",
+    "subtopic": "standalone-list",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Standalone List",
+    "prompt": "Create a standalone component that renders an input list of names.",
+    "examples": [
+      "Input ['Ada','Lin'] -> two list items"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Use modern @for with stable track; .ts and optional .html."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Use modern @for with stable track; .ts and optional .html."
+    ],
+    "conceptsTested": [
+      "standalone-list"
+    ],
+    "tags": [
+      "standalone-list"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-002",
+    "topic": "angular",
+    "subtopic": "input-output",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Input Output",
+    "prompt": "Create child counter with input start and output changed.",
+    "examples": [
+      "Parent receives changed value after click"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Use input/output APIs or @Input/@Output; show parent binding."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Use input/output APIs or @Input/@Output; show parent binding."
+    ],
+    "conceptsTested": [
+      "input-output"
+    ],
+    "tags": [
+      "input-output"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-003",
+    "topic": "angular",
+    "subtopic": "filter-list",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Filter List",
+    "prompt": "Create component that filters displayed items by a search term.",
+    "examples": [
+      "Term 'an' -> matching items"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Case-insensitive; do not mutate source."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Case-insensitive; do not mutate source."
+    ],
+    "conceptsTested": [
+      "filter-list"
+    ],
+    "tags": [
+      "filter-list"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-004",
+    "topic": "angular",
+    "subtopic": "reactive-form",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Reactive Form",
+    "prompt": "Create a reactive form with required email and submit guard.",
+    "examples": [
+      "Invalid email -> no submit"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Show validation feedback after touch; import needed APIs."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Show validation feedback after touch; import needed APIs."
+    ],
+    "conceptsTested": [
+      "reactive-form"
+    ],
+    "tags": [
+      "reactive-form"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-005",
+    "topic": "angular",
+    "subtopic": "service",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Service",
+    "prompt": "Write injectable service storing a small list of tasks.",
+    "examples": [
+      "add then list -> new task visible"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Provide in root; expose read and add operations."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Provide in root; expose read and add operations."
+    ],
+    "conceptsTested": [
+      "service"
+    ],
+    "tags": [
+      "service"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-006",
+    "topic": "angular",
+    "subtopic": "http",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Http",
+    "prompt": "Write service method getUser(id) using HttpClient.",
+    "examples": [
+      "getUser(2) -> Observable<User>"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Encode/id route; type return value; no manual subscribe in service."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Encode/id route; type return value; no manual subscribe in service."
+    ],
+    "conceptsTested": [
+      "http"
+    ],
+    "tags": [
+      "http"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-007",
+    "topic": "angular",
+    "subtopic": "observable-map",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Observable Map",
+    "prompt": "Transform Observable<User[]> into Observable<string[]> of names.",
+    "examples": [
+      "[{name:'Ada'}] -> ['Ada']"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Use pipe(map(...)); type output."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Use pipe(map(...)); type output."
+    ],
+    "conceptsTested": [
+      "observable-map"
+    ],
+    "tags": [
+      "observable-map"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-008",
+    "topic": "angular",
+    "subtopic": "switchmap-search",
+    "difficulty": "junior_plus",
+    "type": "coding",
+    "title": "Switchmap Search",
+    "prompt": "Build search stream using debounceTime and switchMap.",
+    "examples": [
+      "Latest term -> latest results"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Avoid request on empty term; handle errors simply."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Avoid request on empty term; handle errors simply."
+    ],
+    "conceptsTested": [
+      "switchmap-search"
+    ],
+    "tags": [
+      "switchmap-search"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-009",
+    "topic": "angular",
+    "subtopic": "unsubscribe",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Unsubscribe",
+    "prompt": "Fix a component subscription leak.",
+    "examples": [
+      "Repeated mount/unmount -> no old listener"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Use async pipe or takeUntilDestroyed."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Use async pipe or takeUntilDestroyed."
+    ],
+    "conceptsTested": [
+      "unsubscribe"
+    ],
+    "tags": [
+      "unsubscribe"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-010",
+    "topic": "angular",
+    "subtopic": "binding-fix",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Binding Fix",
+    "prompt": "Fix a disabled button binding.",
+    "examples": [
+      "canSave=true -> enabled"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Use property binding correctly; explain expression."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Use property binding correctly; explain expression."
+    ],
+    "conceptsTested": [
+      "binding-fix"
+    ],
+    "tags": [
+      "binding-fix"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-011",
+    "topic": "angular",
+    "subtopic": "loading-state",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Loading State",
+    "prompt": "Implement loading/data/error rendering for a fetch.",
+    "examples": [
+      "Request pending -> loading, rejection -> error"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Avoid stale loading state; show retry or refresh path."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Avoid stale loading state; show retry or refresh path."
+    ],
+    "conceptsTested": [
+      "loading-state"
+    ],
+    "tags": [
+      "loading-state"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-012",
+    "topic": "angular",
+    "subtopic": "route-param",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Route Param",
+    "prompt": "Read route id and fetch matching item.",
+    "examples": [
+      "/users/2 -> fetch user 2"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Respond when route param changes; use appropriate stream."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Respond when route param changes; use appropriate stream."
+    ],
+    "conceptsTested": [
+      "route-param"
+    ],
+    "tags": [
+      "route-param"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-013",
+    "topic": "angular",
+    "subtopic": "interceptor",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Interceptor",
+    "prompt": "Sketch functional interceptor that adds auth token for own API.",
+    "examples": [
+      "Own API -> Authorization header"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Do not attach token to third-party URL; return next(cloned)."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Do not attach token to third-party URL; return next(cloned)."
+    ],
+    "conceptsTested": [
+      "interceptor"
+    ],
+    "tags": [
+      "interceptor"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-014",
+    "topic": "angular",
+    "subtopic": "async-pipe",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Async Pipe",
+    "prompt": "Convert manual subscription in component to async-pipe-friendly template.",
+    "examples": [
+      "data$ displayed without manual subscribe"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Show .ts and template; cleanup automatic."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Show .ts and template; cleanup automatic."
+    ],
+    "conceptsTested": [
+      "async-pipe"
+    ],
+    "tags": [
+      "async-pipe"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-015",
+    "topic": "angular",
+    "subtopic": "onpush-fix",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Onpush Fix",
+    "prompt": "Fix stale OnPush child after parent mutates input object.",
+    "examples": [
+      "Updated name appears"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Create new input reference or use reactive signal."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Create new input reference or use reactive signal."
+    ],
+    "conceptsTested": [
+      "onpush-fix"
+    ],
+    "tags": [
+      "onpush-fix"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-016",
+    "topic": "angular",
+    "subtopic": "pipe",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Pipe",
+    "prompt": "Create a simple pure pipe that shortens long text.",
+    "examples": [
+      "'abcdef',4 -> 'abcd…'"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Handle short/empty text; standalone import."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Handle short/empty text; standalone import."
+    ],
+    "conceptsTested": [
+      "pipe"
+    ],
+    "tags": [
+      "pipe"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-017",
+    "topic": "angular",
+    "subtopic": "validation",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Validation",
+    "prompt": "Write a custom validator disallowing whitespace-only text.",
+    "examples": [
+      "'   ' -> invalid"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Return null for valid value and error object otherwise."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Return null for valid value and error object otherwise."
+    ],
+    "conceptsTested": [
+      "validation"
+    ],
+    "tags": [
+      "validation"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-ang-018",
+    "topic": "angular",
+    "subtopic": "projection",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Projection",
+    "prompt": "Create card component with projected body content.",
+    "examples": [
+      "Parent markup appears inside card"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Use ng-content and accessible heading."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Use ng-content and accessible heading."
+    ],
+    "conceptsTested": [
+      "projection"
+    ],
+    "tags": [
+      "projection"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  }
+]

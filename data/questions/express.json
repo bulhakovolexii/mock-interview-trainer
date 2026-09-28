@@ -1,0 +1,690 @@
+[
+  {
+    "id": "exp-fundamentals-001",
+    "topic": "express",
+    "subtopic": "fundamentals",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does Express add on top of Node's HTTP server?",
+    "expectedPoints": [
+      "Convenient routing, middleware, request/response helpers."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "fundamentals"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-routing-002",
+    "topic": "express",
+    "subtopic": "routing",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How would you define a GET /health route?",
+    "expectedPoints": [
+      "app.get('/health', (req,res)=>res.json({ok:true}))."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "routing"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-routing-003",
+    "topic": "express",
+    "subtopic": "routing",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is the difference between req.params.id and req.query.id?",
+    "expectedPoints": [
+      "Route path parameter versus URL query parameter."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "routing"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-routing-004",
+    "topic": "express",
+    "subtopic": "routing",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Where does JSON POST data appear after JSON body middleware?",
+    "expectedPoints": [
+      "req.body."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "routing"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-middleware-005",
+    "topic": "express",
+    "subtopic": "middleware",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is Express middleware?",
+    "expectedPoints": [
+      "Function with req,res,next that can process request, respond, or pass control."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "middleware"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-middleware-006",
+    "topic": "express",
+    "subtopic": "middleware",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why does middleware order matter?",
+    "expectedPoints": [
+      "Handlers run in registration order; parsing/auth must happen before dependent routes."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "middleware"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-middleware-007",
+    "topic": "express",
+    "subtopic": "middleware",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What happens if middleware neither responds nor calls next?",
+    "expectedPoints": [
+      "Request hangs without proceeding."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "middleware"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-middleware-008",
+    "topic": "express",
+    "subtopic": "middleware",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How would you make a simple request logger middleware?",
+    "expectedPoints": [
+      "Log req.method and req.url then call next()."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "middleware"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-errors-009",
+    "topic": "express",
+    "subtopic": "errors",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What makes Express error middleware distinct?",
+    "expectedPoints": [
+      "Four parameters (err, req, res, next), registered after routes."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "errors"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-errors-010",
+    "topic": "express",
+    "subtopic": "errors",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why centralize error handling in an API?",
+    "expectedPoints": [
+      "Consistent status/body and less duplicated route logic."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "errors"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-status-011",
+    "topic": "express",
+    "subtopic": "status",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When is 201 preferable to 200?",
+    "expectedPoints": [
+      "Resource successfully created."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "status"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-status-012",
+    "topic": "express",
+    "subtopic": "status",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When should a missing resource return 404?",
+    "expectedPoints": [
+      "Requested resource does not exist."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "status"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-status-013",
+    "topic": "express",
+    "subtopic": "status",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do 400 and 500 differ?",
+    "expectedPoints": [
+      "Bad client request versus unexpected server failure."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "status"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-rest-014",
+    "topic": "express",
+    "subtopic": "rest",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What does CRUD stand for and how might it map to HTTP verbs?",
+    "expectedPoints": [
+      "Create POST, Read GET, Update PUT/PATCH, Delete DELETE."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "rest"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-rest-015",
+    "topic": "express",
+    "subtopic": "rest",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do PUT and PATCH usually differ?",
+    "expectedPoints": [
+      "PUT replaces representation; PATCH applies partial update."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "rest"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-responses-016",
+    "topic": "express",
+    "subtopic": "responses",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does res.json do?",
+    "expectedPoints": [
+      "Serializes object to JSON response and sets content type."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "responses"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-validation-017",
+    "topic": "express",
+    "subtopic": "validation",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why validate req.body before using it?",
+    "expectedPoints": [
+      "Client input can be missing, wrong type, or malicious; return clear 400."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "validation"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-validation-018",
+    "topic": "express",
+    "subtopic": "validation",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What should an API return for invalid input?",
+    "expectedPoints": [
+      "A 400/422 status with concise useful error details."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "validation"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-async-019",
+    "topic": "express",
+    "subtopic": "async",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do you ensure errors from an async route reach error handling?",
+    "expectedPoints": [
+      "Use Express version behavior or pass errors to next; Express 5 forwards rejected promises."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "async"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-async-020",
+    "topic": "express",
+    "subtopic": "async",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why should an awaited DB/API operation be handled for failure?",
+    "expectedPoints": [
+      "Prevent unhandled rejection and return meaningful API error."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "async"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-auth-021",
+    "topic": "express",
+    "subtopic": "auth",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What is authentication versus authorization?",
+    "expectedPoints": [
+      "Identity verification versus permission to perform action."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "auth"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-auth-022",
+    "topic": "express",
+    "subtopic": "auth",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Where can a bearer token be sent in a request?",
+    "expectedPoints": [
+      "Authorization: Bearer header; verify server-side."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "auth"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-cors-023",
+    "topic": "express",
+    "subtopic": "cors",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does CORS middleware configure?",
+    "expectedPoints": [
+      "Browser cross-origin access via response headers."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "cors"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-environment-024",
+    "topic": "express",
+    "subtopic": "environment",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why read server port from process.env?",
+    "expectedPoints": [
+      "Deployment environment can set port without source edit."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "environment"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-structure-025",
+    "topic": "express",
+    "subtopic": "structure",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why split routes and business logic in a growing Express app?",
+    "expectedPoints": [
+      "Clear responsibilities, reuse, easier testing."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "structure"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-debugging-026",
+    "topic": "express",
+    "subtopic": "debugging",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "A POST route sees undefined req.body. What would you inspect?",
+    "expectedPoints": [
+      "Express JSON parser setup and Content-Type plus middleware order."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "debugging"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-debugging-027",
+    "topic": "express",
+    "subtopic": "debugging",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Your /users/:id route catches /users/new. How can you fix it?",
+    "expectedPoints": [
+      "Register specific route first or constrain param matching."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "debugging"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-debugging-028",
+    "topic": "express",
+    "subtopic": "debugging",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "An API responds twice and throws headers sent. What went wrong?",
+    "expectedPoints": [
+      "Code attempted second response; return after response or control flow fix."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "debugging"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "exp-status-029",
+    "topic": "express",
+    "subtopic": "status",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "Which status best fits successful creation?",
+    "expectedPoints": [
+      "201"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "status"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://angular.dev/guide/components",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "201",
+      "200",
+      "404",
+      "500"
+    ],
+    "correctOption": "A"
+  },
+  {
+    "id": "exp-middleware-030",
+    "topic": "express",
+    "subtopic": "middleware",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "What must ordinary middleware call to continue?",
+    "expectedPoints": [
+      "next()"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "middleware"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://angular.dev/guide/components",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "res.json()",
+      "process.exit()",
+      "next()",
+      "listen()"
+    ],
+    "correctOption": "C"
+  },
+  {
+    "id": "exp-middleware-031",
+    "topic": "express",
+    "subtopic": "middleware",
+    "difficulty": "junior",
+    "type": "debug",
+    "question": "Why does the route never see parsed JSON?",
+    "expectedPoints": [
+      "Move express.json() before route."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "middleware"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://angular.dev/guide/components",
+      "note": "Original practical scenario."
+    },
+    "snippet": "app.post('/items', handler); app.use(express.json());"
+  },
+  {
+    "id": "exp-response-032",
+    "topic": "express",
+    "subtopic": "response",
+    "difficulty": "junior",
+    "type": "debug",
+    "question": "Find the double-response bug.",
+    "expectedPoints": [
+      "Return after 404 response or use else."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "response"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://angular.dev/guide/components",
+      "note": "Original practical scenario."
+    },
+    "snippet": "if (!item) res.status(404).json({error:'missing'}); res.json(item);"
+  }
+]

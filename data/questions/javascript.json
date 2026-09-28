@@ -1,0 +1,2129 @@
+[
+  {
+    "id": "jav-types-001",
+    "topic": "javascript",
+    "subtopic": "types",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Which JavaScript values are primitives, and how does assigning a primitive differ from assigning an object?",
+    "expectedPoints": [
+      "Primitives are immutable values copied on assignment; objects are reference values and assigned by shared reference."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "types"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-types-002",
+    "topic": "javascript",
+    "subtopic": "types",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does typeof null return, and why should you be careful with it?",
+    "expectedPoints": [
+      "It returns object due to historical behavior; null is still a primitive."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "types"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-types-003",
+    "topic": "javascript",
+    "subtopic": "types",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How would you reliably check whether a value is an array?",
+    "expectedPoints": [
+      "Array.isArray(value)."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "types"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-truthiness-004",
+    "topic": "javascript",
+    "subtopic": "truthiness",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Name the falsy JavaScript values you commonly encounter.",
+    "expectedPoints": [
+      "false, 0, -0, empty string, null, undefined, NaN; 0n is falsy too."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "truthiness"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-equality-005",
+    "topic": "javascript",
+    "subtopic": "equality",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Explain == and === using one example where they differ.",
+    "expectedPoints": [
+      "== coerces types; === does not; 0 == false is true but 0 === false is false."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "equality"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-variables-006",
+    "topic": "javascript",
+    "subtopic": "variables",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When would you choose let instead of const?",
+    "expectedPoints": [
+      "When rebinding is needed; const prevents rebinding, not object mutation."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "variables"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-scope-007",
+    "topic": "javascript",
+    "subtopic": "scope",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "How does var scope differ from let and const inside a block?",
+    "expectedPoints": [
+      "var is function scoped; let and const are block scoped."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "scope"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-scope-008",
+    "topic": "javascript",
+    "subtopic": "scope",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is lexical scope, and which variables can a nested function access?",
+    "expectedPoints": [
+      "Access is determined by where a function is defined; it can access outer scope variables."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "scope"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-hoisting-009",
+    "topic": "javascript",
+    "subtopic": "hoisting",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What happens if you read a let variable before its declaration?",
+    "expectedPoints": [
+      "ReferenceError during the temporal dead zone."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "hoisting"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-hoisting-010",
+    "topic": "javascript",
+    "subtopic": "hoisting",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How are function declarations and function expressions different before their definitions execute?",
+    "expectedPoints": [
+      "Declarations are callable early; expression bindings follow their variable initialization rules."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "hoisting"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-functions-011",
+    "topic": "javascript",
+    "subtopic": "functions",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does an arrow function do differently with this?",
+    "expectedPoints": [
+      "It captures this lexically; it has no own this binding."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "functions"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-functions-012",
+    "topic": "javascript",
+    "subtopic": "functions",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is a default parameter and when is it used?",
+    "expectedPoints": [
+      "Default applies when an argument is omitted or undefined, not null."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "functions"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-functions-013",
+    "topic": "javascript",
+    "subtopic": "functions",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How are rest parameters and spread syntax different?",
+    "expectedPoints": [
+      "Rest collects values; spread expands an iterable or object properties in supported contexts."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "functions"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-destructuring-014",
+    "topic": "javascript",
+    "subtopic": "destructuring",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "Show how to extract name and age from a user object with destructuring.",
+    "expectedPoints": [
+      "const { name, age } = user."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "destructuring"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-template-literals-015",
+    "topic": "javascript",
+    "subtopic": "template-literals",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why use a template literal instead of string concatenation?",
+    "expectedPoints": [
+      "Interpolation with ${...} and multiline text."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "template-literals"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-objects-016",
+    "topic": "javascript",
+    "subtopic": "objects",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Compare dot and bracket property access; when is bracket notation necessary?",
+    "expectedPoints": [
+      "Bracket accepts computed keys and keys unsuitable for dot syntax."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "objects"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-objects-017",
+    "topic": "javascript",
+    "subtopic": "objects",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do Object.keys, Object.values, and Object.entries differ?",
+    "expectedPoints": [
+      "They return own enumerable keys, values, and key-value pairs respectively."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "objects"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-copying-018",
+    "topic": "javascript",
+    "subtopic": "copying",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why might {...user} fail to isolate a nested address object?",
+    "expectedPoints": [
+      "Object spread makes a shallow copy; nested objects retain shared references."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "copying"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-copying-019",
+    "topic": "javascript",
+    "subtopic": "copying",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When is structuredClone useful, and what kind of value can it not clone?",
+    "expectedPoints": [
+      "It can clone many nested structured values but not functions."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "copying"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-immutability-020",
+    "topic": "javascript",
+    "subtopic": "immutability",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does it mean to update an array without mutating the original?",
+    "expectedPoints": [
+      "Create a new array, e.g. map, filter, or spread; avoid changing original entries."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "immutability"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-arrays-021",
+    "topic": "javascript",
+    "subtopic": "arrays",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "Compare slice and splice when removing array elements.",
+    "expectedPoints": [
+      "slice returns a copy and does not mutate; splice changes original array."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "arrays"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-arrays-022",
+    "topic": "javascript",
+    "subtopic": "arrays",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How would you turn an array of users into their email addresses?",
+    "expectedPoints": [
+      "users.map(user => user.email)."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "arrays"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-arrays-023",
+    "topic": "javascript",
+    "subtopic": "arrays",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When should you use filter instead of find?",
+    "expectedPoints": [
+      "filter returns all matches as array; find returns first matching value or undefined."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "arrays"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-arrays-024",
+    "topic": "javascript",
+    "subtopic": "arrays",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What do some and every return for an array?",
+    "expectedPoints": [
+      "Booleans: at least one match versus all matches."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "arrays"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-arrays-025",
+    "topic": "javascript",
+    "subtopic": "arrays",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When is reduce useful for an object-counting task?",
+    "expectedPoints": [
+      "Accumulate counts into an object with an initial accumulator."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "arrays"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-arrays-026",
+    "topic": "javascript",
+    "subtopic": "arrays",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why can [10, 2, 1].sort() produce a surprising order?",
+    "expectedPoints": [
+      "Default sort compares strings; pass numeric comparator (a,b)=>a-b."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "arrays"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-collections-027",
+    "topic": "javascript",
+    "subtopic": "collections",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When is Set a convenient choice for an array transformation?",
+    "expectedPoints": [
+      "Unique values / membership checks."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "collections"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-collections-028",
+    "topic": "javascript",
+    "subtopic": "collections",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "How does Map differ from a plain object for keyed lookup?",
+    "expectedPoints": [
+      "Map accepts any key type and has size and iteration semantics."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "collections"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-callbacks-029",
+    "topic": "javascript",
+    "subtopic": "callbacks",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does it mean that functions are first-class values?",
+    "expectedPoints": [
+      "They can be stored, passed as arguments, and returned."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "callbacks"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-callbacks-030",
+    "topic": "javascript",
+    "subtopic": "callbacks",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Define a higher-order function and give a common example.",
+    "expectedPoints": [
+      "It accepts or returns a function; map/filter are examples."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "callbacks"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-closures-031",
+    "topic": "javascript",
+    "subtopic": "closures",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is a closure in practical terms?",
+    "expectedPoints": [
+      "A function retains access to variables from its defining lexical scope."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "closures"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-closures-032",
+    "topic": "javascript",
+    "subtopic": "closures",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How can a closure keep a counter private?",
+    "expectedPoints": [
+      "Return a function that increments a variable in its enclosing function."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "closures"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-currying-033",
+    "topic": "javascript",
+    "subtopic": "currying",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does a curried add(a)(b) function do?",
+    "expectedPoints": [
+      "It returns a function for the next argument; result is a+b."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "currying"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-purity-034",
+    "topic": "javascript",
+    "subtopic": "purity",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What makes a function pure, and why is that useful for testing?",
+    "expectedPoints": [
+      "Same inputs yield same output; no externally visible side effects."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "purity"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-this-035",
+    "topic": "javascript",
+    "subtopic": "this",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "How is this determined for an ordinary function called as obj.method()?",
+    "expectedPoints": [
+      "By call site; this is obj for a method call."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "this"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-this-036",
+    "topic": "javascript",
+    "subtopic": "this",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does bind do compared with call and apply?",
+    "expectedPoints": [
+      "bind returns a bound function; call/apply invoke immediately with args list/array."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "this"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-prototypes-037",
+    "topic": "javascript",
+    "subtopic": "prototypes",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How does JavaScript find a missing property on an object?",
+    "expectedPoints": [
+      "It searches up the prototype chain until found or null reached."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "prototypes"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-prototypes-038",
+    "topic": "javascript",
+    "subtopic": "prototypes",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is the relationship between class methods and prototypes?",
+    "expectedPoints": [
+      "Class syntax builds prototype methods; instances share them."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "prototypes"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-classes-039",
+    "topic": "javascript",
+    "subtopic": "classes",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does extends provide in a JavaScript class?",
+    "expectedPoints": [
+      "Prototype inheritance and access to parent behavior via super."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "classes"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-async-040",
+    "topic": "javascript",
+    "subtopic": "async",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does synchronous execution mean compared with asynchronous work?",
+    "expectedPoints": [
+      "Synchronous runs in order on stack; asynchronous completion is scheduled later."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "async"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-event-loop-041",
+    "topic": "javascript",
+    "subtopic": "event-loop",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What must happen before a queued callback can run?",
+    "expectedPoints": [
+      "The current call stack must finish; event loop schedules ready callbacks."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "event-loop"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-event-loop-042",
+    "topic": "javascript",
+    "subtopic": "event-loop",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "How do microtasks from Promise.then relate to setTimeout callbacks in a browser?",
+    "expectedPoints": [
+      "Microtasks are drained before the next timer task after current stack."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "event-loop"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-promises-043",
+    "topic": "javascript",
+    "subtopic": "promises",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What are the three states of a Promise?",
+    "expectedPoints": [
+      "pending, fulfilled, rejected."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "promises"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-promises-044",
+    "topic": "javascript",
+    "subtopic": "promises",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does returning a value from a then callback do to the next then?",
+    "expectedPoints": [
+      "Next Promise fulfills with that value; returned Promise is adopted."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "promises"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-promises-045",
+    "topic": "javascript",
+    "subtopic": "promises",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How does Promise.all behave when one input rejects?",
+    "expectedPoints": [
+      "It rejects with that reason; other operations may continue running."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "promises"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-promises-046",
+    "topic": "javascript",
+    "subtopic": "promises",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When would Promise.allSettled be preferable to Promise.all?",
+    "expectedPoints": [
+      "When outcomes of all tasks are needed even if some reject."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "promises"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-promises-047",
+    "topic": "javascript",
+    "subtopic": "promises",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does Promise.race resolve or reject with?",
+    "expectedPoints": [
+      "Settlement of the first settled input Promise."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "promises"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-async-await-048",
+    "topic": "javascript",
+    "subtopic": "async-await",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does an async function always return?",
+    "expectedPoints": [
+      "A Promise; returned values fulfill it and thrown errors reject it."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "async-await"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-async-await-049",
+    "topic": "javascript",
+    "subtopic": "async-await",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "Why might await inside a loop be slower than Promise.all?",
+    "expectedPoints": [
+      "It serializes independent operations; Promise.all starts them concurrently."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "async-await"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-errors-050",
+    "topic": "javascript",
+    "subtopic": "errors",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do you handle a rejected Promise with async/await?",
+    "expectedPoints": [
+      "try/catch around await, or catch the returned Promise."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "errors"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-timers-051",
+    "topic": "javascript",
+    "subtopic": "timers",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Does setTimeout(fn, 0) run fn immediately? Explain.",
+    "expectedPoints": [
+      "No; callback waits for current stack and preceding microtasks, then a timer task."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "timers"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-dom-052",
+    "topic": "javascript",
+    "subtopic": "dom",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How would you select one element by CSS selector and change its text?",
+    "expectedPoints": [
+      "document.querySelector(selector).textContent = value."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "dom"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-dom-053",
+    "topic": "javascript",
+    "subtopic": "dom",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is the difference between textContent and innerHTML for user-provided text?",
+    "expectedPoints": [
+      "textContent inserts text safely; innerHTML parses markup and can introduce XSS."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "dom"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-events-054",
+    "topic": "javascript",
+    "subtopic": "events",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Explain event bubbling with a nested button and container.",
+    "expectedPoints": [
+      "Event reaches target then bubbles through ancestors unless propagation is stopped."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "events"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-events-055",
+    "topic": "javascript",
+    "subtopic": "events",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is event capture?",
+    "expectedPoints": [
+      "Event travels from ancestors toward target before target/bubble phases."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "events"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-events-056",
+    "topic": "javascript",
+    "subtopic": "events",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What is event delegation and why is it useful for dynamic lists?",
+    "expectedPoints": [
+      "Put one listener on ancestor and inspect event.target; handles future children."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "events"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-events-057",
+    "topic": "javascript",
+    "subtopic": "events",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When would you call preventDefault on an event?",
+    "expectedPoints": [
+      "To prevent browser default action such as form navigation; it does not stop propagation."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "events"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-events-058",
+    "topic": "javascript",
+    "subtopic": "events",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How does stopPropagation differ from preventDefault?",
+    "expectedPoints": [
+      "Stops propagation through DOM versus cancels default browser behavior."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "events"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-storage-059",
+    "topic": "javascript",
+    "subtopic": "storage",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Compare localStorage and sessionStorage lifetimes.",
+    "expectedPoints": [
+      "localStorage persists across sessions; sessionStorage is scoped to a tab/session."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "storage"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-storage-060",
+    "topic": "javascript",
+    "subtopic": "storage",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why should you avoid assuming localStorage stores JavaScript objects directly?",
+    "expectedPoints": [
+      "It stores strings; serialize with JSON.stringify and parse on read."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "storage"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-cookies-061",
+    "topic": "javascript",
+    "subtopic": "cookies",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is one important difference between cookies and localStorage for HTTP requests?",
+    "expectedPoints": [
+      "Cookies can be sent automatically with matching HTTP requests; localStorage is not."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "cookies"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-fetch-062",
+    "topic": "javascript",
+    "subtopic": "fetch",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do you detect an HTTP 404 when using fetch?",
+    "expectedPoints": [
+      "fetch usually fulfills on HTTP errors; check response.ok/status."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "fetch"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-json-063",
+    "topic": "javascript",
+    "subtopic": "json",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What do JSON.stringify and JSON.parse do?",
+    "expectedPoints": [
+      "Serialize JS value to JSON text and parse JSON text into JS value."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "json"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-cors-064",
+    "topic": "javascript",
+    "subtopic": "cors",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is CORS trying to control in a browser?",
+    "expectedPoints": [
+      "Whether scripts from one origin may read responses from another origin under server policy."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "cors"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-modules-065",
+    "topic": "javascript",
+    "subtopic": "modules",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is the difference between named and default ES module exports?",
+    "expectedPoints": [
+      "Named imports use exported names; default is one default export with chosen import name."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "modules"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-modules-066",
+    "topic": "javascript",
+    "subtopic": "modules",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is a key syntax difference between CommonJS and ES modules?",
+    "expectedPoints": [
+      "require/module.exports versus import/export; module semantics differ."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "modules"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-complexity-067",
+    "topic": "javascript",
+    "subtopic": "complexity",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is the time complexity of scanning an array once?",
+    "expectedPoints": [
+      "O(n) for n elements."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "complexity"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-recursion-068",
+    "topic": "javascript",
+    "subtopic": "recursion",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What are a base case and recursive step?",
+    "expectedPoints": [
+      "Base case stops; recursive step reduces toward it."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "recursion"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-debugging-069",
+    "topic": "javascript",
+    "subtopic": "debugging",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "A click listener appears twice after every page navigation. What would you inspect?",
+    "expectedPoints": [
+      "Repeated registration and missing cleanup; remove listener or register once."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "debugging"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-debugging-070",
+    "topic": "javascript",
+    "subtopic": "debugging",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "A search response from an older request overwrites newer results. How might you prevent this?",
+    "expectedPoints": [
+      "Cancel/ignore stale requests or use switchMap for observable requests."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "debugging"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/javascript-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "jav-scope-071",
+    "topic": "javascript",
+    "subtopic": "scope",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "Which binding is block scoped?",
+    "expectedPoints": [
+      "let"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "scope"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "var",
+      "function declaration in outer scope",
+      "let",
+      "undeclared assignment"
+    ],
+    "correctOption": "C"
+  },
+  {
+    "id": "jav-arrays-072",
+    "topic": "javascript",
+    "subtopic": "arrays",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "Which method returns the first matching element?",
+    "expectedPoints": [
+      "find"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "arrays"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "find",
+      "map",
+      "filter",
+      "some"
+    ],
+    "correctOption": "A"
+  },
+  {
+    "id": "jav-promises-073",
+    "topic": "javascript",
+    "subtopic": "promises",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "Which method gives an outcome for every promise even after rejection?",
+    "expectedPoints": [
+      "allSettled"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "promises"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "race",
+      "then",
+      "all",
+      "allSettled"
+    ],
+    "correctOption": "D"
+  },
+  {
+    "id": "jav-equality-074",
+    "topic": "javascript",
+    "subtopic": "equality",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "Which comparison is true?",
+    "expectedPoints": [
+      "0 == false"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "equality"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "0 === false",
+      "0 == false",
+      "null === undefined",
+      "NaN === NaN"
+    ],
+    "correctOption": "B"
+  },
+  {
+    "id": "jav-copying-075",
+    "topic": "javascript",
+    "subtopic": "copying",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "Which expression creates a new top-level array?",
+    "expectedPoints": [
+      "[...items]"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "copying"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "items.sort()",
+      "[...items]",
+      "items.push(1)",
+      "items.splice(0)"
+    ],
+    "correctOption": "B"
+  },
+  {
+    "id": "jav-storage-076",
+    "topic": "javascript",
+    "subtopic": "storage",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "Which storage typically survives closing the browser?",
+    "expectedPoints": [
+      "localStorage"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "storage"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "sessionStorage",
+      "event.target",
+      "a local variable",
+      "localStorage"
+    ],
+    "correctOption": "D"
+  },
+  {
+    "id": "jav-events-077",
+    "topic": "javascript",
+    "subtopic": "events",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "Where should a single click listener for dynamic list items usually go?",
+    "expectedPoints": [
+      "a stable parent element"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "events"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "a stable parent element",
+      "window only",
+      "each future item before creation",
+      "the stylesheet"
+    ],
+    "correctOption": "A"
+  },
+  {
+    "id": "jav-async-await-078",
+    "topic": "javascript",
+    "subtopic": "async-await",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "What does await do to its enclosing async function?",
+    "expectedPoints": [
+      "suspends its continuation until settlement"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "async-await"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "blocks the whole JS process",
+      "returns a raw Promise immediately from await",
+      "suspends its continuation until settlement",
+      "turns it synchronous"
+    ],
+    "correctOption": "C"
+  },
+  {
+    "id": "jav-scope-079",
+    "topic": "javascript",
+    "subtopic": "scope",
+    "difficulty": "junior",
+    "type": "output",
+    "question": "What is logged, in order? Briefly explain.",
+    "expectedPoints": [
+      "undefined"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "scope"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "console.log(x); var x = 3;",
+    "expectedOutput": "undefined"
+  },
+  {
+    "id": "jav-scope-080",
+    "topic": "javascript",
+    "subtopic": "scope",
+    "difficulty": "junior",
+    "type": "output",
+    "question": "What is logged, in order? Briefly explain.",
+    "expectedPoints": [
+      "1"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "scope"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "let x = 1; { let x = 2; } console.log(x);",
+    "expectedOutput": "1"
+  },
+  {
+    "id": "jav-closures-081",
+    "topic": "javascript",
+    "subtopic": "closures",
+    "difficulty": "junior",
+    "type": "output",
+    "question": "What is logged, in order? Briefly explain.",
+    "expectedPoints": [
+      "1 2"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "closures"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "function make(){let n=0;return ()=>++n}; const c=make(); console.log(c(),c());",
+    "expectedOutput": "1 2"
+  },
+  {
+    "id": "jav-references-082",
+    "topic": "javascript",
+    "subtopic": "references",
+    "difficulty": "junior",
+    "type": "output",
+    "question": "What is logged, in order? Briefly explain.",
+    "expectedPoints": [
+      "2"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "references"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "const a={n:1}; const b=a; b.n=2; console.log(a.n);",
+    "expectedOutput": "2"
+  },
+  {
+    "id": "jav-arrays-083",
+    "topic": "javascript",
+    "subtopic": "arrays",
+    "difficulty": "junior",
+    "type": "output",
+    "question": "What is logged, in order? Briefly explain.",
+    "expectedPoints": [
+      "[4, 6]"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "arrays"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "console.log([1,2,3].filter(x=>x>1).map(x=>x*2));",
+    "expectedOutput": "[4, 6]"
+  },
+  {
+    "id": "jav-coercion-084",
+    "topic": "javascript",
+    "subtopic": "coercion",
+    "difficulty": "junior",
+    "type": "output",
+    "question": "What is logged, in order? Briefly explain.",
+    "expectedPoints": [
+      "true false"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "coercion"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "console.log(0 == false, 0 === false);",
+    "expectedOutput": "true false"
+  },
+  {
+    "id": "jav-event-loop-085",
+    "topic": "javascript",
+    "subtopic": "event-loop",
+    "difficulty": "junior",
+    "type": "output",
+    "question": "What is logged, in order? Briefly explain.",
+    "expectedPoints": [
+      "A D C B"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "event-loop"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "console.log('A'); setTimeout(()=>console.log('B'),0); Promise.resolve().then(()=>console.log('C')); console.log('D');",
+    "expectedOutput": "A D C B"
+  },
+  {
+    "id": "jav-async-await-086",
+    "topic": "javascript",
+    "subtopic": "async-await",
+    "difficulty": "junior",
+    "type": "output",
+    "question": "What is logged, in order? Briefly explain.",
+    "expectedPoints": [
+      "1 4"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "async-await"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "async function f(){return 4}; f().then(x=>console.log(x)); console.log(1);",
+    "expectedOutput": "1 4"
+  },
+  {
+    "id": "jav-promises-087",
+    "topic": "javascript",
+    "subtopic": "promises",
+    "difficulty": "junior",
+    "type": "output",
+    "question": "What is logged, in order? Briefly explain.",
+    "expectedPoints": [
+      "sync then 3"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "promises"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "Promise.resolve(2).then(x=>x+1).then(console.log); console.log('sync');",
+    "expectedOutput": "sync then 3"
+  },
+  {
+    "id": "jav-this-088",
+    "topic": "javascript",
+    "subtopic": "this",
+    "difficulty": "junior",
+    "type": "output",
+    "question": "What is logged, in order? Briefly explain.",
+    "expectedPoints": [
+      "3"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "this"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "const obj={n:3, get(){return this.n}}; console.log(obj.get());",
+    "expectedOutput": "3"
+  },
+  {
+    "id": "jav-arrays-089",
+    "topic": "javascript",
+    "subtopic": "arrays",
+    "difficulty": "junior",
+    "type": "output",
+    "question": "What is logged, in order? Briefly explain.",
+    "expectedPoints": [
+      "[1, 10, 2]"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "arrays"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "console.log([10,2,1].sort());",
+    "expectedOutput": "[1, 10, 2]"
+  },
+  {
+    "id": "jav-timers-090",
+    "topic": "javascript",
+    "subtopic": "timers",
+    "difficulty": "junior",
+    "type": "output",
+    "question": "What is logged, in order? Briefly explain.",
+    "expectedPoints": [
+      "0 1 2"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "timers"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "for(let i=0;i<3;i++) setTimeout(()=>console.log(i),0);",
+    "expectedOutput": "0 1 2"
+  },
+  {
+    "id": "jav-copying-091",
+    "topic": "javascript",
+    "subtopic": "copying",
+    "difficulty": "junior",
+    "type": "output",
+    "question": "What is logged, in order? Briefly explain.",
+    "expectedPoints": [
+      "5"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "copying"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "const a={nested:{n:1}}; const b={...a}; b.nested.n=5; console.log(a.nested.n);",
+    "expectedOutput": "5"
+  },
+  {
+    "id": "jav-prototypes-092",
+    "topic": "javascript",
+    "subtopic": "prototypes",
+    "difficulty": "junior",
+    "type": "output",
+    "question": "What is logged, in order? Briefly explain.",
+    "expectedPoints": [
+      "2"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "prototypes"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "const base={x:2}; const child=Object.create(base); console.log(child.x);",
+    "expectedOutput": "2"
+  },
+  {
+    "id": "jav-truthiness-093",
+    "topic": "javascript",
+    "subtopic": "truthiness",
+    "difficulty": "junior",
+    "type": "output",
+    "question": "What is logged, in order? Briefly explain.",
+    "expectedPoints": [
+      "true false false"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "truthiness"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "console.log(Boolean([]), Boolean(''), Boolean(0));",
+    "expectedOutput": "true false false"
+  },
+  {
+    "id": "jav-async-094",
+    "topic": "javascript",
+    "subtopic": "async",
+    "difficulty": "junior",
+    "type": "debug",
+    "question": "Why does this log an unresolved Promise? Fix it.",
+    "expectedPoints": [
+      "await load() inside async context or use .then"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "async"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "async function load(){ return 42 }; console.log(load());"
+  },
+  {
+    "id": "jav-arrays-095",
+    "topic": "javascript",
+    "subtopic": "arrays",
+    "difficulty": "junior",
+    "type": "debug",
+    "question": "Why did the source array change? Fix it without mutation.",
+    "expectedPoints": [
+      "Use [...items].sort(...) or toSorted()."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "arrays"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "const sorted = items.sort((a,b)=>a-b);"
+  },
+  {
+    "id": "jav-closure-096",
+    "topic": "javascript",
+    "subtopic": "closure",
+    "difficulty": "junior",
+    "type": "debug",
+    "question": "Why do all callbacks print the final loop value? Fix it.",
+    "expectedPoints": [
+      "Use let i, creating a new binding per iteration."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "closure"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "for(var i=0;i<3;i++) setTimeout(()=>console.log(i),0);"
+  },
+  {
+    "id": "jav-fetch-097",
+    "topic": "javascript",
+    "subtopic": "fetch",
+    "difficulty": "junior",
+    "type": "debug",
+    "question": "Why does the catch not handle HTTP 404?",
+    "expectedPoints": [
+      "Check response.ok and throw on unsuccessful HTTP status."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "fetch"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical scenario."
+    },
+    "snippet": "try { await fetch('/missing') } catch(e) { console.log(e) }"
+  }
+]

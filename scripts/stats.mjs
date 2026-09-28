@@ -1,0 +1,5 @@
+import { state, score } from './interview-state.mjs';
+const s=state();
+const brief=b=>({answered:b.total,strong:b.correct+b.mostly_correct,partial:b.partially_correct,missed:b.incorrect+b.skipped});
+const weak=Object.entries(s.stats.bySubtopic).filter(([,b])=>b.total>0).sort((a,b)=>score(a[1])-score(b[1]) || b[1].total-a[1].total).slice(0,8).map(([concept,b])=>({concept,...brief(b)}));
+console.log(JSON.stringify({totalAnswered:s.stats.totalAnswered,results:s.stats.results,byTopic:Object.fromEntries(Object.entries(s.stats.byTopic).map(([k,b])=>[k,brief(b)])),byType:Object.fromEntries(Object.entries(s.stats.byType).map(([k,b])=>[k,brief(b)])),codingTasksAttempted:s.stats.codingTasksAttempted,codingTasksSolved:s.stats.codingTasksSolved,weakTopics:weak,reviewDue:s.review.items.filter(x=>x.dueAfter<=s.stats.totalAnswered).length,reviewQueued:s.review.items.length,session:{id:s.session.id,mode:s.session.mode,target:s.session.target,answered:s.session.answered,results:s.session.results,codingAttempted:s.session.codingAttempted,codingSolved:s.session.codingSolved,pending:s.session.pending?.id||null}},null,2));

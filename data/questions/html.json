@@ -1,0 +1,534 @@
+[
+  {
+    "id": "htm-semantics-001",
+    "topic": "html",
+    "subtopic": "semantics",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why use semantic elements such as main, nav, and article?",
+    "expectedPoints": [
+      "Meaningful structure for accessibility, browser tools, and SEO."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "semantics"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-document-002",
+    "topic": "html",
+    "subtopic": "document",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What are doctype, html, head, and body for?",
+    "expectedPoints": [
+      "Standards mode and document root, metadata, visible content."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "document"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-document-003",
+    "topic": "html",
+    "subtopic": "document",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does the lang attribute on html help with?",
+    "expectedPoints": [
+      "Screen readers and language processing."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "document"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-elements-004",
+    "topic": "html",
+    "subtopic": "elements",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do block and inline elements typically affect layout?",
+    "expectedPoints": [
+      "Block starts new line/full available width; inline flows with text, though CSS can alter display."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "elements"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-forms-005",
+    "topic": "html",
+    "subtopic": "forms",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why should an input have an associated label?",
+    "expectedPoints": [
+      "Accessible name and larger click target."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "forms"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-forms-006",
+    "topic": "html",
+    "subtopic": "forms",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is the difference between input type=email and type=text?",
+    "expectedPoints": [
+      "Email offers browser validation/input hints; server validation still needed."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "forms"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-forms-007",
+    "topic": "html",
+    "subtopic": "forms",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What does the name attribute on a form control affect?",
+    "expectedPoints": [
+      "Key submitted with form data."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "forms"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-forms-008",
+    "topic": "html",
+    "subtopic": "forms",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does required do, and is it enough for server validation?",
+    "expectedPoints": [
+      "Browser constraint validation; server must validate independently."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "forms"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-forms-009",
+    "topic": "html",
+    "subtopic": "forms",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When do you use a button with type=button inside a form?",
+    "expectedPoints": [
+      "To prevent default form submission for non-submit action."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "forms"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-accessibility-010",
+    "topic": "html",
+    "subtopic": "accessibility",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What makes alt text useful on an image?",
+    "expectedPoints": [
+      "Conveys relevant image meaning to assistive tech or when unavailable."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "accessibility"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-accessibility-011",
+    "topic": "html",
+    "subtopic": "accessibility",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When should a decorative image use alt=\"\"?",
+    "expectedPoints": [
+      "When it adds no content and should be skipped by screen readers."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "accessibility"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-accessibility-012",
+    "topic": "html",
+    "subtopic": "accessibility",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When is a button preferable to a link?",
+    "expectedPoints": [
+      "For an action on the current page; links navigate to a destination."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "accessibility"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-accessibility-013",
+    "topic": "html",
+    "subtopic": "accessibility",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why should headings follow a meaningful hierarchy?",
+    "expectedPoints": [
+      "Navigable document outline and understandable structure."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "accessibility"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-accessibility-014",
+    "topic": "html",
+    "subtopic": "accessibility",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "Why not add ARIA roles when a native HTML element already provides behavior?",
+    "expectedPoints": [
+      "Native semantics and keyboard behavior are usually more reliable."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "accessibility"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-tables-015",
+    "topic": "html",
+    "subtopic": "tables",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What should a data table use for column headers?",
+    "expectedPoints": [
+      "th cells with appropriate scope where helpful."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "tables"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-data-016",
+    "topic": "html",
+    "subtopic": "data",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What are data-* attributes for?",
+    "expectedPoints": [
+      "Custom metadata accessible in DOM via dataset."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "data"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-meta-017",
+    "topic": "html",
+    "subtopic": "meta",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does meta viewport help with on mobile?",
+    "expectedPoints": [
+      "Controls layout viewport scaling for responsive layouts."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "meta"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-seo-018",
+    "topic": "html",
+    "subtopic": "seo",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Name two HTML features helpful for basic SEO.",
+    "expectedPoints": [
+      "Descriptive title, semantic headings, meta description, meaningful links."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "seo"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-scripts-019",
+    "topic": "html",
+    "subtopic": "scripts",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do defer and async differ for external scripts?",
+    "expectedPoints": [
+      "defer executes after parse in order; async executes when fetched, order not guaranteed."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "scripts"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-dom-020",
+    "topic": "html",
+    "subtopic": "dom",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is the DOM in relation to HTML source?",
+    "expectedPoints": [
+      "Browser-created document object tree that scripts can inspect/change."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "dom"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-security-021",
+    "topic": "html",
+    "subtopic": "security",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "Why should you avoid inserting untrusted text with innerHTML?",
+    "expectedPoints": [
+      "It parses markup and can create XSS."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "security"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-forms-022",
+    "topic": "html",
+    "subtopic": "forms",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How can fieldset and legend help a group of controls?",
+    "expectedPoints": [
+      "Give group a semantic label/context."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "forms"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-links-023",
+    "topic": "html",
+    "subtopic": "links",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What should link text communicate?",
+    "expectedPoints": [
+      "Destination or purpose without relying on surrounding context."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "links"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-media-024",
+    "topic": "html",
+    "subtopic": "media",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why might a video need captions?",
+    "expectedPoints": [
+      "Access for deaf/hard-of-hearing users and other contexts."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "media"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/html-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "htm-accessibility-025",
+    "topic": "html",
+    "subtopic": "accessibility",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "Which element normally performs an action without navigation?",
+    "expectedPoints": [
+      "button"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "accessibility"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://angular.dev/guide/components",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "a",
+      "button",
+      "span",
+      "div"
+    ],
+    "correctOption": "B"
+  }
+]

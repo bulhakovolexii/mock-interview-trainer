@@ -1,0 +1,1186 @@
+[
+  {
+    "id": "code-jav-001",
+    "topic": "javascript",
+    "subtopic": "reverse-string",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Reverse String",
+    "prompt": "Reverse a string without using Array.reverse.",
+    "examples": [
+      "reverse('abc') -> 'cba'"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Return a string; handle empty input."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Return a string; handle empty input."
+    ],
+    "conceptsTested": [
+      "reverse-string"
+    ],
+    "tags": [
+      "reverse-string"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-002",
+    "topic": "javascript",
+    "subtopic": "palindrome",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Palindrome",
+    "prompt": "Check whether a string is a palindrome ignoring case and spaces.",
+    "examples": [
+      "isPalindrome('Never odd or even') -> true"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Return boolean; document punctuation choice."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Return boolean; document punctuation choice."
+    ],
+    "conceptsTested": [
+      "palindrome"
+    ],
+    "tags": [
+      "palindrome"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-003",
+    "topic": "javascript",
+    "subtopic": "unique",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Unique",
+    "prompt": "Remove duplicates from an array preserving first occurrence order.",
+    "examples": [
+      "unique([1,2,1]) -> [1,2]"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Use strict/reference identity semantics or explain alternative."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Use strict/reference identity semantics or explain alternative."
+    ],
+    "conceptsTested": [
+      "unique"
+    ],
+    "tags": [
+      "unique"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-004",
+    "topic": "javascript",
+    "subtopic": "count",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Count",
+    "prompt": "Count occurrences of each string in an array.",
+    "examples": [
+      "count(['a','b','a']) -> {a:2,b:1}"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Return plain object or Map; handle empty array."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Return plain object or Map; handle empty array."
+    ],
+    "conceptsTested": [
+      "count"
+    ],
+    "tags": [
+      "count"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-005",
+    "topic": "javascript",
+    "subtopic": "most-frequent",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Most Frequent",
+    "prompt": "Return the most frequent item and its count.",
+    "examples": [
+      "mostFrequent(['a','b','a']) -> {value:'a',count:2}"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Define tie behavior; handle empty input."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Define tie behavior; handle empty input."
+    ],
+    "conceptsTested": [
+      "most-frequent"
+    ],
+    "tags": [
+      "most-frequent"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-006",
+    "topic": "javascript",
+    "subtopic": "chunk",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Chunk",
+    "prompt": "Split an array into chunks of positive size n.",
+    "examples": [
+      "chunk([1,2,3],2) -> [[1,2],[3]]"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Do not mutate input; reject invalid n."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Do not mutate input; reject invalid n."
+    ],
+    "conceptsTested": [
+      "chunk"
+    ],
+    "tags": [
+      "chunk"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-007",
+    "topic": "javascript",
+    "subtopic": "flatten",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Flatten",
+    "prompt": "Flatten a nested array recursively.",
+    "examples": [
+      "flatten([1,[2,[3]]]) -> [1,2,3]"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Preserve order; handle empty arrays."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Preserve order; handle empty arrays."
+    ],
+    "conceptsTested": [
+      "flatten"
+    ],
+    "tags": [
+      "flatten"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-008",
+    "topic": "javascript",
+    "subtopic": "flatten-object",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Flatten Object",
+    "prompt": "Flatten nested object keys with dot paths.",
+    "examples": [
+      "flattenObject({a:{b:2}}) -> {'a.b':2}"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Handle nested plain objects; define array behavior."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Handle nested plain objects; define array behavior."
+    ],
+    "conceptsTested": [
+      "flatten-object"
+    ],
+    "tags": [
+      "flatten-object"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-009",
+    "topic": "javascript",
+    "subtopic": "group-by",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Group By",
+    "prompt": "Group an array of objects by a chosen key.",
+    "examples": [
+      "groupBy([{k:'a'},{k:'b'}],'k') -> {a:[...],b:[...]}"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Preserve item order; handle missing keys explicitly."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Preserve item order; handle missing keys explicitly."
+    ],
+    "conceptsTested": [
+      "group-by"
+    ],
+    "tags": [
+      "group-by"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-010",
+    "topic": "javascript",
+    "subtopic": "custom-map",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Custom Map",
+    "prompt": "Implement myMap(array, fn) without Array.map.",
+    "examples": [
+      "myMap([1,2],x=>x*2) -> [2,4]"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Return new array; pass value/index if desired."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Return new array; pass value/index if desired."
+    ],
+    "conceptsTested": [
+      "custom-map"
+    ],
+    "tags": [
+      "custom-map"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-011",
+    "topic": "javascript",
+    "subtopic": "custom-filter",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Custom Filter",
+    "prompt": "Implement myFilter(array, predicate) without Array.filter.",
+    "examples": [
+      "myFilter([1,2,3],x=>x>1) -> [2,3]"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Do not mutate input."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Do not mutate input."
+    ],
+    "conceptsTested": [
+      "custom-filter"
+    ],
+    "tags": [
+      "custom-filter"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-012",
+    "topic": "javascript",
+    "subtopic": "custom-reduce",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Custom Reduce",
+    "prompt": "Implement myReduce(array, fn, initial) without Array.reduce.",
+    "examples": [
+      "myReduce([1,2],(a,b)=>a+b,0) -> 3"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Use initial accumulator; handle empty array."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Use initial accumulator; handle empty array."
+    ],
+    "conceptsTested": [
+      "custom-reduce"
+    ],
+    "tags": [
+      "custom-reduce"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-013",
+    "topic": "javascript",
+    "subtopic": "debounce",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Debounce",
+    "prompt": "Implement debounce(fn, delay) so only last call in a burst runs.",
+    "examples": [
+      "Three calls close together -> one trailing call"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Preserve this and latest args; allow timer cancellation internally."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Preserve this and latest args; allow timer cancellation internally."
+    ],
+    "conceptsTested": [
+      "debounce"
+    ],
+    "tags": [
+      "debounce"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://javascript.info/task/debounce",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-014",
+    "topic": "javascript",
+    "subtopic": "throttle",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Throttle",
+    "prompt": "Implement throttle(fn, interval) with at most one call per interval.",
+    "examples": [
+      "Rapid calls -> bounded calls"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "State whether leading/trailing calls run; preserve args."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "State whether leading/trailing calls run; preserve args."
+    ],
+    "conceptsTested": [
+      "throttle"
+    ],
+    "tags": [
+      "throttle"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://javascript.info/task/debounce",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-015",
+    "topic": "javascript",
+    "subtopic": "memoize",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Memoize",
+    "prompt": "Memoize a pure single-argument function.",
+    "examples": [
+      "memoized(2) twice -> underlying fn once"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Cache results; define key strategy."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Cache results; define key strategy."
+    ],
+    "conceptsTested": [
+      "memoize"
+    ],
+    "tags": [
+      "memoize"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-016",
+    "topic": "javascript",
+    "subtopic": "curry",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Curry",
+    "prompt": "Implement curry2(fn) so curry2(add)(1)(2) returns 3.",
+    "examples": [
+      "curry2((a,b)=>a+b)(1)(2) -> 3"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Support exactly two arguments."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Support exactly two arguments."
+    ],
+    "conceptsTested": [
+      "curry"
+    ],
+    "tags": [
+      "curry"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-017",
+    "topic": "javascript",
+    "subtopic": "compose",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Compose",
+    "prompt": "Implement compose(f,g) returning x => f(g(x)).",
+    "examples": [
+      "compose(x=>x+1,x=>x*2)(3) -> 7"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Preserve function order."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Preserve function order."
+    ],
+    "conceptsTested": [
+      "compose"
+    ],
+    "tags": [
+      "compose"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-018",
+    "topic": "javascript",
+    "subtopic": "once",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Once",
+    "prompt": "Implement once(fn) that invokes fn only on first call.",
+    "examples": [
+      "once(increment) called twice -> increment once"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Return cached first result on later calls."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Return cached first result on later calls."
+    ],
+    "conceptsTested": [
+      "once"
+    ],
+    "tags": [
+      "once"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-019",
+    "topic": "javascript",
+    "subtopic": "event-emitter",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Event Emitter",
+    "prompt": "Implement on, off, and emit for a small EventEmitter.",
+    "examples": [
+      "on('x',fn); emit('x',2) calls fn(2)"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Multiple listeners; removing one works."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Multiple listeners; removing one works."
+    ],
+    "conceptsTested": [
+      "event-emitter"
+    ],
+    "tags": [
+      "event-emitter"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-020",
+    "topic": "javascript",
+    "subtopic": "promise-all",
+    "difficulty": "junior_plus",
+    "type": "coding",
+    "title": "Promise All",
+    "prompt": "Implement a simplified promiseAll(values).",
+    "examples": [
+      "promiseAll([Promise.resolve(1),2]) -> [1,2]"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Preserve order; reject on first rejection; empty -> []."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Preserve order; reject on first rejection; empty -> []."
+    ],
+    "conceptsTested": [
+      "promise-all"
+    ],
+    "tags": [
+      "promise-all"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-021",
+    "topic": "javascript",
+    "subtopic": "intersection",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Intersection",
+    "prompt": "Find unique common elements of two arrays.",
+    "examples": [
+      "intersection([1,2,2],[2,3]) -> [2]"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Preserve first array order; no duplicates."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Preserve first array order; no duplicates."
+    ],
+    "conceptsTested": [
+      "intersection"
+    ],
+    "tags": [
+      "intersection"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-022",
+    "topic": "javascript",
+    "subtopic": "merge-arrays",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Merge Arrays",
+    "prompt": "Merge two arrays of records by id, second array wins.",
+    "examples": [
+      "merge([{id:1,a:1}],[{id:1,a:2}]) -> [{id:1,a:2}]"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Preserve first-seen id order; avoid mutating records."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Preserve first-seen id order; avoid mutating records."
+    ],
+    "conceptsTested": [
+      "merge-arrays"
+    ],
+    "tags": [
+      "merge-arrays"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-023",
+    "topic": "javascript",
+    "subtopic": "sort-group",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Sort Group",
+    "prompt": "Group records by status and sort each group by name.",
+    "examples": [
+      "[{status:'open',name:'B'},{status:'open',name:'A'}] -> {open:[A,B]}"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "No input mutation."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "No input mutation."
+    ],
+    "conceptsTested": [
+      "sort-group"
+    ],
+    "tags": [
+      "sort-group"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-024",
+    "topic": "javascript",
+    "subtopic": "api-transform",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Api Transform",
+    "prompt": "Turn API users into {id,label} options using name as label.",
+    "examples": [
+      "[{id:1,name:'Ada'}] -> [{id:1,label:'Ada'}]"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Handle empty array; keep order."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Handle empty array; keep order."
+    ],
+    "conceptsTested": [
+      "api-transform"
+    ],
+    "tags": [
+      "api-transform"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-025",
+    "topic": "javascript",
+    "subtopic": "lookup",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Lookup",
+    "prompt": "Build an id-to-user lookup from an array of users.",
+    "examples": [
+      "[{id:1,name:'A'}] -> {'1':{id:1,name:'A'}}"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Define duplicate id behavior."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Define duplicate id behavior."
+    ],
+    "conceptsTested": [
+      "lookup"
+    ],
+    "tags": [
+      "lookup"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-026",
+    "topic": "javascript",
+    "subtopic": "nested-get",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Nested Get",
+    "prompt": "Implement getPath(object, 'a.b.c', fallback).",
+    "examples": [
+      "getPath({a:{b:2}},'a.b',0) -> 2"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Return fallback when path missing; don't throw on null."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Return fallback when path missing; don't throw on null."
+    ],
+    "conceptsTested": [
+      "nested-get"
+    ],
+    "tags": [
+      "nested-get"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-027",
+    "topic": "javascript",
+    "subtopic": "traverse",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Traverse",
+    "prompt": "Recursively collect all leaf values in nested objects.",
+    "examples": [
+      "leaves({a:1,b:{c:2}}) -> [1,2]"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Define array handling; preserve traversal order."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Define array handling; preserve traversal order."
+    ],
+    "conceptsTested": [
+      "traverse"
+    ],
+    "tags": [
+      "traverse"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-028",
+    "topic": "javascript",
+    "subtopic": "counter",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Counter",
+    "prompt": "Create makeCounter that returns increment and get methods.",
+    "examples": [
+      "counter.increment(); counter.get() -> 1"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Keep state private via closure."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Keep state private via closure."
+    ],
+    "conceptsTested": [
+      "counter"
+    ],
+    "tags": [
+      "counter"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-029",
+    "topic": "javascript",
+    "subtopic": "retry",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Retry",
+    "prompt": "Implement retry(asyncFn, attempts) until success or exhausted.",
+    "examples": [
+      "First rejection then success -> success"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Await attempts sequentially; reject final failure."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Await attempts sequentially; reject final failure."
+    ],
+    "conceptsTested": [
+      "retry"
+    ],
+    "tags": [
+      "retry"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-030",
+    "topic": "javascript",
+    "subtopic": "sequence",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Sequence",
+    "prompt": "Run an array of async functions sequentially and collect values.",
+    "examples": [
+      "tasks resolving 1,2 -> [1,2]"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "No overlap; preserve order; propagate rejection."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "No overlap; preserve order; propagate rejection."
+    ],
+    "conceptsTested": [
+      "sequence"
+    ],
+    "tags": [
+      "sequence"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-031",
+    "topic": "javascript",
+    "subtopic": "concurrency",
+    "difficulty": "junior_plus",
+    "type": "coding",
+    "title": "Concurrency",
+    "prompt": "Run async tasks with a maximum of two active at once.",
+    "examples": [
+      "four tasks, limit 2 -> max active 2"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Preserve result order; validate positive limit."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Preserve result order; validate positive limit."
+    ],
+    "conceptsTested": [
+      "concurrency"
+    ],
+    "tags": [
+      "concurrency"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  },
+  {
+    "id": "code-jav-032",
+    "topic": "javascript",
+    "subtopic": "stale-closure",
+    "difficulty": "junior",
+    "type": "coding",
+    "title": "Stale Closure",
+    "prompt": "Fix callbacks that capture the final var loop index.",
+    "examples": [
+      "for(var i=0;i<3;i++) setTimeout(()=>console.log(i),0)"
+    ],
+    "constraints": [
+      "Keep the solution short and explain any assumptions."
+    ],
+    "expectedBehavior": [
+      "Produce 0,1,2 and explain why."
+    ],
+    "starterCode": "",
+    "evaluationNotes": [
+      "Inspect code before running it.",
+      "Test the example and at least one edge case; give partial credit for sound approach."
+    ],
+    "hiddenTests": [
+      "Produce 0,1,2 and explain why."
+    ],
+    "conceptsTested": [
+      "stale-closure"
+    ],
+    "tags": [
+      "stale-closure"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "note": "Original practical exercise informed by common interview patterns."
+    }
+  }
+]

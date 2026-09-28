@@ -1,0 +1,17 @@
+{
+  "totalAnswered": 0,
+  "results": {
+    "correct": 0,
+    "mostly_correct": 0,
+    "partially_correct": 0,
+    "incorrect": 0,
+    "skipped": 0
+  },
+  "byTopic": {},
+  "bySubtopic": {},
+  "byType": {},
+  "concepts": {},
+  "codingTasksAttempted": 0,
+  "codingTasksSolved": 0,
+  "recentQuestionIds": []
+}

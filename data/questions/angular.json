@@ -1,0 +1,1377 @@
+[
+  {
+    "id": "ang-fundamentals-001",
+    "topic": "angular",
+    "subtopic": "fundamentals",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is Angular and what role does a component play?",
+    "expectedPoints": [
+      "Angular is a TypeScript web framework; components combine template, behavior, and metadata for UI."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "fundamentals"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-fundamentals-002",
+    "topic": "angular",
+    "subtopic": "fundamentals",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What makes an application a single-page application?",
+    "expectedPoints": [
+      "Navigation updates view client-side without reloading full document each time."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "fundamentals"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-structure-003",
+    "topic": "angular",
+    "subtopic": "structure",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What files are commonly involved in an Angular component?",
+    "expectedPoints": [
+      "TypeScript class/metadata, template, optional styles and tests."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "structure"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-standalone-004",
+    "topic": "angular",
+    "subtopic": "standalone",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does standalone: true mean for an Angular component?",
+    "expectedPoints": [
+      "It can import its own dependencies and be used without declaration in an NgModule."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "standalone"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-templates-005",
+    "topic": "angular",
+    "subtopic": "templates",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does {{ user.name }} do in an Angular template?",
+    "expectedPoints": [
+      "Interpolation renders expression as text."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "templates"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-binding-006",
+    "topic": "angular",
+    "subtopic": "binding",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When would you use [disabled] instead of disabled on a button?",
+    "expectedPoints": [
+      "Property binding controls DOM property from component expression dynamically."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "binding"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-binding-007",
+    "topic": "angular",
+    "subtopic": "binding",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "How does (click)=\"save()\" work?",
+    "expectedPoints": [
+      "Event binding invokes component handler when click occurs."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "binding"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-binding-008",
+    "topic": "angular",
+    "subtopic": "binding",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does [(ngModel)] express, and what must be available to use it?",
+    "expectedPoints": [
+      "Two-way binding; FormsModule/ngModel support must be imported."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "binding"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-control-flow-009",
+    "topic": "angular",
+    "subtopic": "control-flow",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How would you conditionally render content in a modern Angular template?",
+    "expectedPoints": [
+      "Use @if block; older *ngIf may appear in existing apps."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "control-flow"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-control-flow-010",
+    "topic": "angular",
+    "subtopic": "control-flow",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How would you render a list with a stable identity in modern Angular?",
+    "expectedPoints": [
+      "Use @for (item of items; track item.id); older *ngFor exists."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "control-flow"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-directives-011",
+    "topic": "angular",
+    "subtopic": "directives",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do attribute directives differ from structural/control-flow rendering?",
+    "expectedPoints": [
+      "Attribute directives change behavior/style of existing element; control flow creates/removes views."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "directives"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-pipes-012",
+    "topic": "angular",
+    "subtopic": "pipes",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does a pipe do in a template?",
+    "expectedPoints": [
+      "Transforms displayed value; e.g. date/currency/async."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "pipes"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-pipes-013",
+    "topic": "angular",
+    "subtopic": "pipes",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When might you write a custom pipe?",
+    "expectedPoints": [
+      "Reusable display transformation; avoid heavy impure work in templates."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "pipes"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-input-output-014",
+    "topic": "angular",
+    "subtopic": "input-output",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What is an input in parent-child communication?",
+    "expectedPoints": [
+      "Parent passes data to child through input binding / input API."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "input-output"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-input-output-015",
+    "topic": "angular",
+    "subtopic": "input-output",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is an output in parent-child communication?",
+    "expectedPoints": [
+      "Child emits an event that parent listens to."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "input-output"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-input-output-016",
+    "topic": "angular",
+    "subtopic": "input-output",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How would a child report a selected item to its parent?",
+    "expectedPoints": [
+      "Output event emitter/output API; parent handles ($event)."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "input-output"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-viewchild-017",
+    "topic": "angular",
+    "subtopic": "viewchild",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is ViewChild used for?",
+    "expectedPoints": [
+      "Access a child component/directive or template element after view creation."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "viewchild"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-projection-018",
+    "topic": "angular",
+    "subtopic": "projection",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does ng-content enable?",
+    "expectedPoints": [
+      "Parent projects markup into a child component's template."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "projection"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-lifecycle-019",
+    "topic": "angular",
+    "subtopic": "lifecycle",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When does ngOnInit run?",
+    "expectedPoints": [
+      "Once after Angular initializes bound inputs; suitable for initialization."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "lifecycle"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-lifecycle-020",
+    "topic": "angular",
+    "subtopic": "lifecycle",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does ngOnChanges receive?",
+    "expectedPoints": [
+      "Changes to bound inputs, including previous/current values."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "lifecycle"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-lifecycle-021",
+    "topic": "angular",
+    "subtopic": "lifecycle",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What cleanup belongs in ngOnDestroy?",
+    "expectedPoints": [
+      "Subscriptions, timers, listeners, or other resources not automatically cleaned."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "lifecycle"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-di-022",
+    "topic": "angular",
+    "subtopic": "di",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why put shared logic in an injectable service?",
+    "expectedPoints": [
+      "Reuse behavior/state and obtain via dependency injection."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "di"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-di-023",
+    "topic": "angular",
+    "subtopic": "di",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does dependency injection do in Angular?",
+    "expectedPoints": [
+      "Injector provides dependencies to classes rather than constructing them manually."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "di"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-di-024",
+    "topic": "angular",
+    "subtopic": "di",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does providedIn: 'root' usually imply?",
+    "expectedPoints": [
+      "App root-level singleton service instance (subject to provider overrides)."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "di"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-di-025",
+    "topic": "angular",
+    "subtopic": "di",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Can a component-level provider create a different service instance?",
+    "expectedPoints": [
+      "Yes, component injector can provide a scoped instance."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "di"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-di-026",
+    "topic": "angular",
+    "subtopic": "di",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How can a standalone component request a service using a modern API?",
+    "expectedPoints": [
+      "inject(Service) in an injection context; constructor injection also supported."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "di"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-observables-027",
+    "topic": "angular",
+    "subtopic": "observables",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is an Observable in Angular/RxJS terms?",
+    "expectedPoints": [
+      "A subscribable stream that may emit multiple values over time."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "observables"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-observables-028",
+    "topic": "angular",
+    "subtopic": "observables",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "How does an Observable differ from a Promise?",
+    "expectedPoints": [
+      "Observable may emit multiple values and is cancellable by unsubscribe; Promise settles once."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "observables"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-observables-029",
+    "topic": "angular",
+    "subtopic": "observables",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is a subscription?",
+    "expectedPoints": [
+      "Connection to observable emissions; may need cleanup."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "observables"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-observables-030",
+    "topic": "angular",
+    "subtopic": "observables",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is a Subject?",
+    "expectedPoints": [
+      "Both observable and observer; can multicast next values to subscribers."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "observables"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-observables-031",
+    "topic": "angular",
+    "subtopic": "observables",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why use BehaviorSubject for current state?",
+    "expectedPoints": [
+      "It stores a current value and immediately emits latest to new subscribers."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "observables"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-observables-032",
+    "topic": "angular",
+    "subtopic": "observables",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does the async pipe do?",
+    "expectedPoints": [
+      "Subscribes in template, renders latest value, and cleans up subscription."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "observables"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-rxjs-033",
+    "topic": "angular",
+    "subtopic": "rxjs",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does map do in an RxJS pipe?",
+    "expectedPoints": [
+      "Transforms each emitted value."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "rxjs"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-rxjs-034",
+    "topic": "angular",
+    "subtopic": "rxjs",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does filter do in an RxJS pipe?",
+    "expectedPoints": [
+      "Allows emissions matching predicate."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "rxjs"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-rxjs-035",
+    "topic": "angular",
+    "subtopic": "rxjs",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "When is tap useful?",
+    "expectedPoints": [
+      "Side effects such as logging without changing emitted value."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "rxjs"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-rxjs-036",
+    "topic": "angular",
+    "subtopic": "rxjs",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why is switchMap suitable for autocomplete requests?",
+    "expectedPoints": [
+      "Switches to latest inner observable and unsubscribes prior request stream."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "rxjs"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-rxjs-037",
+    "topic": "angular",
+    "subtopic": "rxjs",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does catchError need to return?",
+    "expectedPoints": [
+      "An Observable to continue/recover or rethrow via throwError."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "rxjs"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-rxjs-038",
+    "topic": "angular",
+    "subtopic": "rxjs",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Name a modern way to clean up a component subscription.",
+    "expectedPoints": [
+      "takeUntilDestroyed, async pipe, or explicit unsubscribe in ngOnDestroy."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "rxjs"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-http-039",
+    "topic": "angular",
+    "subtopic": "http",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does HttpClient.get return?",
+    "expectedPoints": [
+      "An Observable of response data; request generally starts on subscription."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "http"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-http-040",
+    "topic": "angular",
+    "subtopic": "http",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Where would you handle loading, success, and error states for a request?",
+    "expectedPoints": [
+      "Track loading/error/data in component/service and clear loading on completion/error."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "http"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-http-041",
+    "topic": "angular",
+    "subtopic": "http",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What can an HTTP interceptor do?",
+    "expectedPoints": [
+      "Inspect/modify requests or responses, e.g. add auth header or central error handling."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "http"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-http-042",
+    "topic": "angular",
+    "subtopic": "http",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "Why should auth tokens be attached conditionally in an interceptor?",
+    "expectedPoints": [
+      "Avoid leaking tokens to unintended hosts/endpoints."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "http"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-forms-043",
+    "topic": "angular",
+    "subtopic": "forms",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is the difference between template-driven and reactive forms?",
+    "expectedPoints": [
+      "Template-driven declares form behavior mainly in template; reactive forms define controls/model in class."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "forms"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-forms-044",
+    "topic": "angular",
+    "subtopic": "forms",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What are FormControl and FormGroup?",
+    "expectedPoints": [
+      "Control tracks a value/status; group combines named controls."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "forms"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-forms-045",
+    "topic": "angular",
+    "subtopic": "forms",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do you show validation errors without showing them immediately on page load?",
+    "expectedPoints": [
+      "Check invalid plus touched/dirty/submitted."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "forms"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-forms-046",
+    "topic": "angular",
+    "subtopic": "forms",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does a custom validator return when input is valid?",
+    "expectedPoints": [
+      "null; otherwise validation errors object."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "forms"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-routing-047",
+    "topic": "angular",
+    "subtopic": "routing",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does routerLink do?",
+    "expectedPoints": [
+      "Navigates using Angular Router without full page reload."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "routing"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-routing-048",
+    "topic": "angular",
+    "subtopic": "routing",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How can a component read a route parameter?",
+    "expectedPoints": [
+      "ActivatedRoute paramMap snapshot or observable."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "routing"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-routing-049",
+    "topic": "angular",
+    "subtopic": "routing",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What does lazy loading a route achieve?",
+    "expectedPoints": [
+      "Loads route code when needed, reducing initial bundle work."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "routing"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-routing-050",
+    "topic": "angular",
+    "subtopic": "routing",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is a route guard for?",
+    "expectedPoints": [
+      "Controls navigation based on condition; server must still enforce security."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "routing"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-change-detection-051",
+    "topic": "angular",
+    "subtopic": "change-detection",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does change detection do?",
+    "expectedPoints": [
+      "Updates template when state changes."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "change-detection"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-change-detection-052",
+    "topic": "angular",
+    "subtopic": "change-detection",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is the basic idea of OnPush?",
+    "expectedPoints": [
+      "Reduce checks; update via new input references, events, observable emissions, signals, etc."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "change-detection"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-change-detection-053",
+    "topic": "angular",
+    "subtopic": "change-detection",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why may mutating an input object cause an OnPush child to appear stale?",
+    "expectedPoints": [
+      "Same reference may not trigger expected input change detection; pass a new reference."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "change-detection"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-modern-054",
+    "topic": "angular",
+    "subtopic": "modern",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do standalone components relate to NgModules in existing projects?",
+    "expectedPoints": [
+      "Standalone is modern default approach; older apps may organize declarations/imports in NgModules."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "modern"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-modern-055",
+    "topic": "angular",
+    "subtopic": "modern",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Compare @if with *ngIf at a high level.",
+    "expectedPoints": [
+      "Both conditionally display content; @if is modern built-in syntax, *ngIf older directive syntax."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "modern"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-debugging-056",
+    "topic": "angular",
+    "subtopic": "debugging",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "An Angular template says an imported pipe is unknown. What would you check?",
+    "expectedPoints": [
+      "Import pipe/dependency into standalone component or owning NgModule."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "debugging"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-debugging-057",
+    "topic": "angular",
+    "subtopic": "debugging",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "A list renders with wrong reused rows after reorder. What should you inspect?",
+    "expectedPoints": [
+      "@for track expression / identity stability."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "debugging"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/angular-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "ang-di-058",
+    "topic": "angular",
+    "subtopic": "di",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "Where is a providedIn: root service usually shared?",
+    "expectedPoints": [
+      "through the root injector"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "di"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://angular.dev/guide/components",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "only within one component",
+      "only in templates",
+      "between browser tabs automatically",
+      "through the root injector"
+    ],
+    "correctOption": "D"
+  },
+  {
+    "id": "ang-rxjs-059",
+    "topic": "angular",
+    "subtopic": "rxjs",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "Which operator is usually appropriate for latest-only search requests?",
+    "expectedPoints": [
+      "switchMap"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "rxjs"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://angular.dev/guide/components",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "tap",
+      "switchMap",
+      "filter",
+      "map"
+    ],
+    "correctOption": "B"
+  },
+  {
+    "id": "ang-forms-060",
+    "topic": "angular",
+    "subtopic": "forms",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "Which object groups named reactive form controls?",
+    "expectedPoints": [
+      "FormGroup"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "forms"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://angular.dev/guide/components",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "FormControl",
+      "NgModule",
+      "FormGroup",
+      "Router"
+    ],
+    "correctOption": "C"
+  },
+  {
+    "id": "ang-routing-061",
+    "topic": "angular",
+    "subtopic": "routing",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "Which service exposes route parameters?",
+    "expectedPoints": [
+      "ActivatedRoute"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "routing"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://angular.dev/guide/components",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "ActivatedRoute",
+      "HttpClient",
+      "ChangeDetectorRef",
+      "FormBuilder"
+    ],
+    "correctOption": "A"
+  },
+  {
+    "id": "ang-subscription-062",
+    "topic": "angular",
+    "subtopic": "subscription",
+    "difficulty": "junior",
+    "type": "debug",
+    "question": "Find a leak and describe a fix.",
+    "expectedPoints": [
+      "Use async pipe, takeUntilDestroyed, or explicit cleanup."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "subscription"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://angular.dev/guide/components",
+      "note": "Original practical scenario."
+    },
+    "snippet": "ngOnInit(){ this.data$.subscribe(x => this.value=x) }"
+  },
+  {
+    "id": "ang-binding-063",
+    "topic": "angular",
+    "subtopic": "binding",
+    "difficulty": "junior",
+    "type": "debug",
+    "question": "Why is button disabled even when canSave is true?",
+    "expectedPoints": [
+      "Use [disabled]=\"!canSave\"."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "binding"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://angular.dev/guide/components",
+      "note": "Original practical scenario."
+    },
+    "snippet": "<button disabled=\"canSave\">Save</button>"
+  },
+  {
+    "id": "ang-change-detection-064",
+    "topic": "angular",
+    "subtopic": "change-detection",
+    "difficulty": "junior",
+    "type": "debug",
+    "question": "Why may this OnPush child fail to refresh?",
+    "expectedPoints": [
+      "Create new object reference or use reactive state."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "change-detection"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://angular.dev/guide/components",
+      "note": "Original practical scenario."
+    },
+    "snippet": "this.user.name = 'Ada'; // user passed as @Input to OnPush child"
+  }
+]

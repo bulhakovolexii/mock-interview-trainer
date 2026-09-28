@@ -1,0 +1,660 @@
+[
+  {
+    "id": "css-cascade-001",
+    "topic": "css",
+    "subtopic": "cascade",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does the CSS cascade decide?",
+    "expectedPoints": [
+      "Which declaration wins based on origin, importance, layer, specificity, and order."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "cascade"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-specificity-002",
+    "topic": "css",
+    "subtopic": "specificity",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do class and ID selectors compare in specificity?",
+    "expectedPoints": [
+      "ID generally higher specificity than class."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "specificity"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-inheritance-003",
+    "topic": "css",
+    "subtopic": "inheritance",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Give one CSS property that normally inherits and one that usually does not.",
+    "expectedPoints": [
+      "color inherits; margin does not."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "inheritance"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-box-model-004",
+    "topic": "css",
+    "subtopic": "box-model",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What contributes to an element's rendered box size?",
+    "expectedPoints": [
+      "Content, padding, border, margin outside box."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "box-model"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-box-model-005",
+    "topic": "css",
+    "subtopic": "box-model",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does box-sizing: border-box change?",
+    "expectedPoints": [
+      "Declared width/height include padding and border."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "box-model"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-display-006",
+    "topic": "css",
+    "subtopic": "display",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Compare display:none and visibility:hidden.",
+    "expectedPoints": [
+      "none removes layout box; hidden preserves space but hides content."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "display"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-display-007",
+    "topic": "css",
+    "subtopic": "display",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "When would inline-block be useful?",
+    "expectedPoints": [
+      "Inline flow with controllable width/height and box dimensions."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "display"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-position-008",
+    "topic": "css",
+    "subtopic": "position",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How does position: absolute find its containing block?",
+    "expectedPoints": [
+      "Nearest positioned ancestor usually; otherwise initial containing block."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "position"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-position-009",
+    "topic": "css",
+    "subtopic": "position",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does position: fixed attach to in common cases?",
+    "expectedPoints": [
+      "Viewport, subject to containing block exceptions."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "position"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-position-010",
+    "topic": "css",
+    "subtopic": "position",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is sticky positioning good for?",
+    "expectedPoints": [
+      "Element sticks to scroll threshold within scroll container."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "position"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-flexbox-011",
+    "topic": "css",
+    "subtopic": "flexbox",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Which axis does justify-content control in Flexbox?",
+    "expectedPoints": [
+      "Main axis."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "flexbox"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-flexbox-012",
+    "topic": "css",
+    "subtopic": "flexbox",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do align-items and justify-content differ in a row flex container?",
+    "expectedPoints": [
+      "align-items cross axis; justify-content main axis."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "flexbox"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-flexbox-013",
+    "topic": "css",
+    "subtopic": "flexbox",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How could you center a child horizontally and vertically with Flexbox?",
+    "expectedPoints": [
+      "display:flex; justify-content:center; align-items:center."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "flexbox"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-flexbox-014",
+    "topic": "css",
+    "subtopic": "flexbox",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What does flex-wrap solve?",
+    "expectedPoints": [
+      "Allows items to move to new line when insufficient space."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "flexbox"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-grid-015",
+    "topic": "css",
+    "subtopic": "grid",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When is CSS Grid more convenient than Flexbox?",
+    "expectedPoints": [
+      "Two-dimensional row/column layout."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "grid"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-grid-016",
+    "topic": "css",
+    "subtopic": "grid",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does grid-template-columns: repeat(3, 1fr) create?",
+    "expectedPoints": [
+      "Three equal fractional columns."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "grid"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-spacing-017",
+    "topic": "css",
+    "subtopic": "spacing",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do margin and padding differ?",
+    "expectedPoints": [
+      "Margin outside border; padding between content and border."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "spacing"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-units-018",
+    "topic": "css",
+    "subtopic": "units",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When might rem be preferable to px for font sizes?",
+    "expectedPoints": [
+      "Scales with root font size and user preferences."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "units"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-responsive-019",
+    "topic": "css",
+    "subtopic": "responsive",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is a media query useful for?",
+    "expectedPoints": [
+      "Apply styles conditionally by viewport or media features."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "responsive"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-responsive-020",
+    "topic": "css",
+    "subtopic": "responsive",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does a mobile-first CSS approach look like?",
+    "expectedPoints": [
+      "Base narrow-screen styles then min-width enhancements."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "responsive"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-selectors-021",
+    "topic": "css",
+    "subtopic": "selectors",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What does .card > p select compared with .card p?",
+    "expectedPoints": [
+      "Direct child paragraphs versus any descendant paragraphs."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "selectors"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-pseudo-022",
+    "topic": "css",
+    "subtopic": "pseudo",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "When would you use :focus-visible?",
+    "expectedPoints": [
+      "Visible keyboard focus styles without forcing same outline on every pointer click."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "pseudo"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-pseudo-023",
+    "topic": "css",
+    "subtopic": "pseudo",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What is ::before used for?",
+    "expectedPoints": [
+      "Generated content/styling before element content; not primary accessible content."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "pseudo"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-overflow-024",
+    "topic": "css",
+    "subtopic": "overflow",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does overflow:auto do when content exceeds box?",
+    "expectedPoints": [
+      "Adds scrolling as needed."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "overflow"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-stacking-025",
+    "topic": "css",
+    "subtopic": "stacking",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "Why may z-index:9999 fail to place an element above another?",
+    "expectedPoints": [
+      "Different stacking contexts constrain stacking order."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "stacking"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-transitions-026",
+    "topic": "css",
+    "subtopic": "transitions",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "What does transition change in a hover effect?",
+    "expectedPoints": [
+      "Animates interpolable property changes over time."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "transitions"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-variables-027",
+    "topic": "css",
+    "subtopic": "variables",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "How do you define and use a CSS custom property?",
+    "expectedPoints": [
+      "--name: value; then var(--name)."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "variables"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-bem-028",
+    "topic": "css",
+    "subtopic": "bem",
+    "difficulty": "easy",
+    "type": "open",
+    "question": "What does BEM naming aim to communicate?",
+    "expectedPoints": [
+      "Block, element, modifier relationship in class names."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "bem"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-debugging-029",
+    "topic": "css",
+    "subtopic": "debugging",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "A flex child overflows despite flex-shrink. What common fix might help?",
+    "expectedPoints": [
+      "Set min-width:0 on flex item, inspect long unbreakable content."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "debugging"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-debugging-030",
+    "topic": "css",
+    "subtopic": "debugging",
+    "difficulty": "junior",
+    "type": "open",
+    "question": "A margin between two vertical blocks seems smaller than sum. Why?",
+    "expectedPoints": [
+      "Vertical margin collapse may combine margins."
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "debugging"
+    ],
+    "source": {
+      "type": "adapted",
+      "url": "https://github.com/DevLoversTeam/css-interview-questions",
+      "note": "Original wording; topic cross-checked against source."
+    }
+  },
+  {
+    "id": "css-layout-031",
+    "topic": "css",
+    "subtopic": "layout",
+    "difficulty": "junior",
+    "type": "mcq",
+    "question": "Which layout system directly supports two-dimensional tracks?",
+    "expectedPoints": [
+      "Grid"
+    ],
+    "commonMistakes": [],
+    "followUps": [],
+    "tags": [
+      "layout"
+    ],
+    "source": {
+      "type": "original",
+      "url": "https://angular.dev/guide/components",
+      "note": "Original practical scenario."
+    },
+    "options": [
+      "Flexbox",
+      "float",
+      "inline",
+      "Grid"
+    ],
+    "correctOption": "D"
+  }
+]
