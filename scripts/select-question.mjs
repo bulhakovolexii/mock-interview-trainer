@@ -5,6 +5,13 @@ const value = flag => { const i=args.indexOf(flag); return i>=0 ? args[i+1] : nu
 const s=state();
 const bank=loadBank();
 const byId=new Map(bank.map(q=>[q.id,q]));
+const exclude=value('--exclude');
+const include=value('--include');
+for (const topic of [exclude,include].filter(Boolean)) if (!['javascript','angular','node','express','html','css'].includes(topic)) throw Error(`Invalid topic: ${topic}`);
+s.profile.excludedTopics ||= [];
+if (exclude && !s.profile.excludedTopics.includes(exclude)) s.profile.excludedTopics.push(exclude);
+if (include) s.profile.excludedTopics=s.profile.excludedTopics.filter(x=>x!==include);
+s.session.deferred ||= [];
 if (!s.session.id) { s.session.id=new Date().toISOString(); s.session.startedAt=s.session.id; }
 if (args.includes('--new-session')) {
   s.session={id:new Date().toISOString(),startedAt:new Date().toISOString(),mode:value('--mode')||s.profile.mode||'normal',target:Number(value('--target'))||null,answered:0,results:{correct:0,mostly_correct:0,partially_correct:0,incorrect:0,skipped:0},codingAttempted:0,codingSolved:0,pending:null,recentConcepts:[]};
@@ -16,6 +23,14 @@ if (focus) { if (!['javascript','angular','node','express','html','css'].include
 if (args.includes('--clear-focus')) { s.profile.focus=null; s.profile.mode='normal'; s.session.mode='normal'; }
 const difficulty=value('--difficulty');
 if (difficulty) { if (!['easy','junior','junior_plus'].includes(difficulty)) throw Error('Invalid difficulty'); s.profile.difficulty=difficulty; s.profile.difficultyOverride=true; }
+if (s.session.pending && s.profile.excludedTopics.includes(byId.get(s.session.pending.id)?.topic)) {
+  s.session.deferred.push(s.session.pending);
+  s.session.pending=null;
+}
+if (!s.session.pending) {
+  const resume=s.session.deferred.findIndex(p=>!s.profile.excludedTopics.includes(byId.get(p.id)?.topic));
+  if (resume>=0) s.session.pending=s.session.deferred.splice(resume,1)[0];
+}
 if (s.session.target && s.session.answered >= s.session.target && !s.session.pending) {
   save(s); console.log(JSON.stringify({sessionComplete:true,answered:s.session.answered,mode:s.session.mode})); process.exit(0);
 }
@@ -25,7 +40,7 @@ if (s.session.pending) {
   save(s); console.log(JSON.stringify({pending:true,question:publicQuestion(q)},null,2)); process.exit(0);
 }
 const recent=new Set(s.stats.recentQuestionIds.slice(-18));
-const due=s.review.items.filter(x=>x.dueAfter<=s.stats.totalAnswered).sort((a,b)=>a.dueAfter-b.dueAfter);
+const due=s.review.items.filter(x=>x.dueAfter<=s.stats.totalAnswered && !s.profile.excludedTopics.includes(byId.get(x.questionId)?.topic)).sort((a,b)=>a.dueAfter-b.dueAfter);
 let selected=null, reviewOf=null;
 const reviewMode=s.session.mode==='review';
 const shouldReview=due.length && (reviewMode || Math.random()<.3);
@@ -37,8 +52,9 @@ if (shouldReview) {
 }
 if (!selected) {
   const weights={javascript:40,angular:30,node:9,express:6,html:7.5,css:7.5};
-  let pool=bank.filter(q=>!recent.has(q.id));
-  if (!pool.length) pool=bank;
+  let pool=bank.filter(q=>!recent.has(q.id) && !s.profile.excludedTopics.includes(q.topic));
+  if (!pool.length) pool=bank.filter(q=>!s.profile.excludedTopics.includes(q.topic));
+  if (!pool.length) throw Error('No questions available after topic exclusions');
   if (reviewMode) {
     const weak=pool.filter(q=>s.missed.concepts[conceptKey(q)] || (s.stats.bySubtopic[conceptKey(q)]?.total>=2 && score(s.stats.bySubtopic[conceptKey(q)])<.65));
     if (weak.length) pool=weak;
