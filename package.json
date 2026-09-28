@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Persistent Codex-led junior fullstack interview workspace",
+  "description": "Persistent AI-assisted junior fullstack interview workspace",
   "scripts": {
     "validate": "node scripts/validate-bank.mjs",
     "test": "node scripts/test-workflow.mjs",
